@@ -47,13 +47,13 @@ in the YAML section of your single note project. It's based on https://gist.gith
 
 要使用此主页：
 
-1.安装Dataview、Banners、React Components、Admonition和Obsidian Activity；
-2. 建议使用 Blue Topaz 主题，因为它对 Admonition 的额外支持：安装主题后，下载插件 Style Settings 并在其中启用 Admonition Support（否则您可能没有包含日常笔记部分的分栏视图）
-3. 启用React Components；创建一个components文件夹，把“音乐和生日倒计时.md”放进去；
-4. 将这两个 css 文件添加到您的 css 片段中；
-5. Dataview：启用dataviewjs和inline queries；
-6. Admonition：创建一个没有背景颜色和代码块名称的“ad-col2”；
-7. 在您的 Vault 中打开 00.Homepage，并让所有部分都个性化。
+1. 安装Dataview、Banners、React Components、Admonition和Obsidian Activity；
+2. . 建议使用 Blue Topaz 主题，因为它对 Admonition 的额外支持：安装主题后，下载插件 Style Settings 并在其中启用 Admonition Support（否则您可能没有包含日常笔记部分的分栏视图）
+4. 启用React Components；创建一个components文件夹，把“音乐和生日倒计时.md”放进去；
+5. 将这两个 css 文件添加到您的 css 片段中；
+6. Dataview：启用dataviewjs和inline queries；
+7. Admonition：创建一个没有背景颜色和代码块名称的“ad-col2”；
+8. 在您的 Vault 中打开 00.Homepage，并让所有部分都个性化。
 
 额外说明：
 1. 要使用生日倒计时功能，您需要创建一个页面，其中包含您想要倒计时的人/宠物的名称，并在 YAML 中添加“birthday：YYYY-MM-DD”。
