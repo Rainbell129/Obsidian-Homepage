@@ -34,3 +34,33 @@ status: in progress
 tags: project
 ```
 in the YAML section of your single note project. It's based on https://gist.github.com/chrisgrieser/ac16a80cdd9e8e0e84606cc24e35ad99 so you can check there for more info. 
+
+
+目前主页功能
+1. 一个**导航**，可通向您的Obsidian库中的不同部分（例如您的每日笔记、每周笔记和其他定期笔记），
+2. 三个选项标签，可让您在要显示的不同部分之间切换。目前有**本月音乐**和自动**生日倒计时**功能。
+3. **每日笔记**中不同部分的动态视图（在我的情况下，它们是日记、每日议程和我的鹦鹉日志）
+4. 带有标签#project 的笔记**项目跟踪**。
+5. **目前阅读**部分尚未自动化
+6. Obsidian动态记录。
+
+
+要使用此主页：
+
+1、安装Dataview、Banners、React Components、Admonition和Obsidian Activity；
+2. 建议使用 Blue Topaz 主题，因为它对 Admonition 的额外支持：安装主题后，下载插件 Style Settings 并在其中启用 Admonition Support（否则您可能没有包含日常笔记部分的分栏视图）
+3. 启用React Components；创建一个components文件夹，把“音乐和生日倒计时.md”放进去；
+4. 将这两个 css 文件添加到您的 css 片段中；
+5. Dataview：启用dataviewjs和inline queries；
+6. Admonition：创建一个没有背景颜色和代码块名称的“ad-col2”；
+7. 在您的 Vault 中打开 00.Homepage，并让所有部分都个性化。
+
+额外说明：
+1. 要使用生日倒计时功能，您需要创建一个页面，其中包含您想要倒计时的人/宠物的名称，并在 YAML 中添加“birthday：YYYY-MM-DD”。
+2. 要使用项目跟踪，您需要有一个
+``
+目标：10000
+状态：进行中
+标签： project
+``
+在单笔记项目的 YAML 部分。它基于 https://gist.github.com/chrisgrieser/ac16a80cdd9e8e0e84606cc24e35ad99，因此您可以在此处查看更多信息。
