@@ -24,3 +24,13 @@ To use this homepage:
 5. Dataview: enable dataviewjs and inline queries;
 6. Admonition: create an "ad-col2" view with no background colors and no codeblock names;
 7. Open the 00.Homepage note in your vault and get all sections personalized. 
+
+Extra notes:
+1. To use birthday countdown function, you'll need to create a page with the name of the persons/pets you'd like to have a countdown for and add "birthday: YYYY-MM-DD" in the YAML.
+2. To use project tracking you'll need to have a
+```
+target: 10000
+status: in progress
+tags: project
+```
+in the YAML section of your single note project. It's based on https://gist.github.com/chrisgrieser/ac16a80cdd9e8e0e84606cc24e35ad99 so you can check there for more info. 
