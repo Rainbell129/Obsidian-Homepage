@@ -42,11 +42,11 @@
   }
 
   .markdown-preview-view:not(.kanban) ul>li:not(.task-list-item) {
-    z-index: 9;
+    z-index: 1;
   }
   
   a, .markdown-preview-view .internal-link {
-    z-index: 10;
+    z-index: 2;
   }
   
   /* profile picture 设置 */
