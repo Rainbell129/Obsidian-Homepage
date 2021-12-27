@@ -7,8 +7,8 @@ A dashboard for your obsidian vault.
 
 
 Currently the homepage features 
-1. a dashboard that leads to different parts in your vaults (such as your daily notes, weekly notes an other periodic notes), 
-2. Three button tabs that allow you to switch between different parts you'd like to display. Currently there's a music of the month and automatic birthday countdown featured.  
+1. A dashboard that leads to different parts in your vaults (such as your daily notes, weekly notes an other periodic notes), 
+2. Three button tabs that allow you to switch between different parts you'd like to display. Currently there's a music of the month and automatic birthday countdown featured (this part is supported by React Components).  
 3. A dynamic view of different sections in your daily note (in my case they are diaries, daily agendas, and my parrot logs)
 4. A project tracking for notes with the tag #project.
 5. A Currently Reading section yet to be automatized
@@ -22,7 +22,7 @@ To use this homepage:
 3. Enable React Components; Create a components folder and put "music and birthday countdown.md" in it;
 4. Add the two css files to your css snippets;
 5. Dataview: enable dataviewjs and inline queries;
-6. Admonition: create an "ad-col2" view with no background colors and no codeblock names;
+6. Admonition: create an "ad-col2" view with no background colors and no codeblock names (21/12/27: If you have updated to Obsidian v13.14, the admonition blocks might now be successfully rendered. It is expected it will be fixed in the following versions of Admonition, but right now Obsidian v12.19 is recommended);
 7. Open the 00.Homepage note in your vault and get all sections personalized. 
 
 Extra notes:
@@ -35,6 +35,8 @@ tags: project
 ```
 in the YAML section of your single note project. It's based on https://gist.github.com/chrisgrieser/ac16a80cdd9e8e0e84606cc24e35ad99 so you can check there for more info. 
 
+
+# Obsidian 主页
 
 目前主页功能
 1. 一个**导航**，可通向您的Obsidian库中的不同部分（例如您的每日笔记、每周笔记和其他定期笔记），
