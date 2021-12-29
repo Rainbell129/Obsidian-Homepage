@@ -21,7 +21,7 @@ To use this homepage:
 3. Enable React Components; Create a components folder and put "music and birthday countdown.md" in it;
 4. Add the two css files to your css snippets;
 5. Dataview: enable dataviewjs and inline queries;
-6. Admonition: create an "ad-col2" view with no background colors and no codeblock names (21/12/27: If you have updated to Obsidian v13.14, the admonition blocks might now be successfully rendered. It is expected it will be fixed in the following versions of Admonition, but right now Obsidian v12.19 is recommended);
+6. Admonition: create an "ad-col2" view with no background colors and no codeblock names (21/12/27: If you have updated Obsidian to v13.14, the admonition blocks might not yet be successfully rendered. It is expected the problem will be fixed in the following versions of Admonition, but right now, to use the homepage, Obsidian v12.19 is recommended);
 7. Open the 00.Homepage note in your vault and get all sections personalized. 
 
 Extra notes:
