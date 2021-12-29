@@ -3,7 +3,6 @@ A dashboard for your obsidian vault.
 
 
 <img width="403" alt="IMG_7055" src="https://user-images.githubusercontent.com/58488160/147173306-3bdd2289-6dd1-4603-9ba7-24d8510dd29f.PNG">
-![IMG_7051](https://user-images.githubusercontent.com/58488160/147173319-ebe4c5ef-d5f8-4a09-9315-ed58a7422966.JPG)
 
 
 Currently the homepage features 
@@ -61,8 +60,9 @@ in the YAML section of your single note project. It's based on https://gist.gith
 1. 要使用生日倒计时功能，您需要创建一个页面，其中包含您想要倒计时的人/宠物的名称，并在 YAML 中添加“birthday：YYYY-MM-DD”。
 2. 要使用项目跟踪，您需要有一个
 ``
-目标：10000
-状态：进行中
-标签： project
+target：10000
+status：进行中
+tags： project
 ``
-在单笔记项目的 YAML 部分。它基于 https://gist.github.com/chrisgrieser/ac16a80cdd9e8e0e84606cc24e35ad99，因此您可以在此处查看更多信息。
+在单笔记项目的 YAML 部分。它基于 https://gist.github.com/chrisgrieser/ac16a80cdd9e8e0e84606cc24e35ad99
+因此您可以在此处查看更多信息。
