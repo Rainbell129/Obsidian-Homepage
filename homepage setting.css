@@ -1,3 +1,15 @@
+
+div.musicBirthday{
+  display: flex;
+  }
+
+.myhome .external-link {
+  background-image: none;
+}
+
+
+/* 不知道设置了啥 */
+
 .myhome .admonition-col2 ul>li:not(.task-list-item){
   display: inline-table;
 }
@@ -105,12 +117,17 @@ a, .markdown-preview-view .internal-link {
 /* adapted from spectrum theme, thanks to @Braweria. https://github.com/Braweria/Spectrum */
 /* a kind of css-based pseudo-myhome feature */
 
-/* 手机端 */
+/* 手机端 
 
 .is-mobile .myhome ul{ display: flex; }
 .is-mobile .myhome ul>li:not(.task-list-item) {
   flex: 1 1 45%;
 }
+
+*/
+
+
+
 /* pc端 */
 
 .myhome ul {
