@@ -1,6 +1,6 @@
 2022-01-07 Update:
 1. Fixed mobile view of the homepage;
-2. Made modifications to allow a all-theme homepage view.
+2. Made modifications to allow an all-theme homepage view.
 
 ---
 
