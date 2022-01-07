@@ -1,7 +1,7 @@
 /* minimal 优化 */
 
 .myhome .internal-embed .markdown-embed {
-  border-left: 0x solid var(--quote-opening-modifier);
+  border: 0x solid var(--quote-opening-modifier);
 }
 
 /* react components 设置 */ 
