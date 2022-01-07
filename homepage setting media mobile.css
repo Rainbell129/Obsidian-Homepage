@@ -1,26 +1,43 @@
-/* 手机端设置 */
-
-.is-mobile .myhome ul {
-  display: flex;
-}
-
-.is-mobile .myhome ul>li:not(.task-list-item) {
-  flex: 1 1 40%;
-}
-
-
 @media (max-width: 400pt)
 {
+  div.musicBirthday{
+    display: content;
+    whiteSpace: pre-wrap;
+    textAlign: center;
+    }
+
+/* 怎么设置，不会
+  body.style-options-for-admonition-plugin .admonition-col2>.admonition-content-holder>.admonition-content {	
+    display:content;
+    }
+    */
+    
+  .myhome .external-link {
+    background-image: none;
+  }
+
+  /*
   .myhome .admonition-col2 ul>li:not(.task-list-item){
     display: inline-table;
   }
-  
+  */
+
+  .myhome .admonition-col2 ul {
+    display: initial;
+  }
+
+  /*
   .myhome .admonition-col2 ul>li:not(.task-list-item) {
     flex: 1 1 100%;
   }
+
+
   .myhome .admonition-col2 ul > li.task-list-item {
     flex: 1 1 90%;
   }
+
+  */
+
   /* dataview 设置 */
   .myhome ul ul li:nth-child(even) {
   text-indent: 1em;
@@ -36,7 +53,6 @@
   }
 
   /* 鼠标悬浮banner优先级设置 */
-
   .obsidian-banner-wrapper{
   z-index: 0;
   }
@@ -49,6 +65,7 @@
     z-index: 2;
   }
   
+
   /* profile picture 设置 */
 
 .homepage-profile-picture {
@@ -88,6 +105,18 @@
   flex: 1 1 20%;
   padding: 0.1em 1em 0.1em 0.8em;
   margin: 0 0.1em 0.3em -1.6em  !important;
+  list-style: none;
+  border: 1px solid var(--p-myhome-border-color);
+  border-left: 1px solid var(--p-myhome-border-color) !important;
+  border-radius: var(--radius-s);
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.myhome .admonition-col2 ul>li:not(.task-list-item) {
+  flex: 1 1 100%;
+  padding: 0;
+  margin: 0 0em 0em -1.6em  !important;
   list-style: none;
   border: 1px solid var(--p-myhome-border-color);
   border-left: 1px solid var(--p-myhome-border-color) !important;
