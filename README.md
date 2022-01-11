@@ -21,7 +21,7 @@ A dashboard for your obsidian vault.
 
 <img width="403" alt="IMG_7055" src="https://user-images.githubusercontent.com/58488160/147173306-3bdd2289-6dd1-4603-9ba7-24d8510dd29f.PNG">
 
-
+## Features
 Currently the homepage features 
 1. A map of contents that leads to different parts in your vaults (such as your daily notes, weekly notes an other periodic notes);
 ![IMG_6675](https://user-images.githubusercontent.com/58488160/148902450-b1e55944-619b-471c-bf90-763f7f9725bc.GIF)
@@ -35,7 +35,7 @@ Currently the homepage features
 6. Obsidian activity.
 
 
-To use this homepage:
+## To use this homepage
 
 1. Install Dataview, Banners, React Components, Admonition and Obsidian Activity;
 2. The theme Blue Topaz is suggested;
@@ -47,7 +47,7 @@ To use this homepage:
 
 7. Open the 00.Homepage note in your vault and get all sections personalized. 
 
-Extra notes:
+## Extra notes
 1. To use birthday countdown function, you'll need to create a page with the name of the persons/pets you'd like to have a countdown for and add "birthday: YYYY-MM-DD" in the YAML.
 2. To use project tracking you'll need to have a
 ```
@@ -56,6 +56,39 @@ status: in progress
 tags: project
 ```
 in the YAML section of your single note project. It's based on https://gist.github.com/chrisgrieser/ac16a80cdd9e8e0e84606cc24e35ad99 so you can check there for more info. 
+
+## Tricks
+### Customizable Page Header
+With this plugin you can quickly access your homepage (Homepage plugin required) from anywhere, both on PC and your phone. 
+
+<img width="812" alt="Screen Shot 2022-01-11 at 11 27 19 PM" src="https://user-images.githubusercontent.com/58488160/148972407-0d7b57c5-39bf-4f90-9d1a-e77ff380d163.png">
+
+Settings:
+
+<img width="1078" alt="Screen Shot 2022-01-11 at 11 45 03 PM" src="https://user-images.githubusercontent.com/58488160/148974533-0a0386c6-368d-4c51-b957-3b3c1b0a54f5.png">
+
+### Advanced URI
+
+With the plugin Advanced URI you can create a url for literally anything. Currently I am only using this for running two commands:
+1. open big calendar
+2. open memos
+<img width="299" alt="Screen Shot 2022-01-11 at 11 37 18 PM" src="https://user-images.githubusercontent.com/58488160/148973246-454388c4-e1cf-4e2e-8a59-d737c49f03bf.png">
+
+### Dynamic Buttons
+There are several kinds of dynamic buttons in the MOC part.
+
+1. Periodic Notes
+Supposing you have a daily note formatted YYYY-MM-DD, you should write the md link as followed:
+```
+- `$= '[['+moment().format("YYYY-MM-DD")+'|Today]]'`
+```
+It'll create a button displaying "Today" and leads to your daily note.
+
+2. URL scheme
+If you are using Apple products, both MacOS and IOS have extensive URL schemes that allow you to open almost any app using URL, even perfoming some actions within the app (e.g. open a specific note; open a specific book in IBooks, etc.) I have installed a RSS reader called REEDER and am using this button to open it
+```
+	- [Reeder](reeder://)
+```
 
 
 # Obsidian 主页
@@ -92,3 +125,43 @@ tags： project
 ```
 在单笔记项目的 YAML 部分。它基于 https://gist.github.com/chrisgrieser/ac16a80cdd9e8e0e84606cc24e35ad99
 因此您可以在此处查看更多信息。
+
+##技巧
+### Customizable Page Header
+使用此插件，您可以在 PC 和手机上的任何地方快速访问您的主页（需要Homepage插件）。
+
+
+<img width="812" alt="Screen Shot 2022-01-11 at 11 27 19 PM" src="https://user-images.githubusercontent.com/58488160/148972407-0d7b57c5-39bf-4f90-9d1a-e77ff380d163.png">
+
+
+设置：
+
+<img width="1078" alt="Screen Shot 2022-01-11 at 11 45 03 PM" src="https://user-images.githubusercontent.com/58488160/148974533-0a0386c6-368d-4c51-b957-3b3c1b0a54f5.png">
+
+
+### Advanced URI
+
+使用插件 Advanced URI，您可以为几乎任何内容和操作创建一个 url。目前我只使用它来运行两个命令：
+1.打开Big Calendar
+2.打开Memos
+
+<img width="299" alt="Screen Shot 2022-01-11 at 11 37 18 PM" src="https://user-images.githubusercontent.com/58488160/148973246-454388c4-e1cf-4e2e-8a59-d737c49f03bf.png">
+
+
+### 动态按钮
+MOC部分有几种动态按钮。
+
+1. 定期笔记
+
+假设您有一个格式为 YYYY-MM-DD 的每日笔记，您应该如此编写 md 链接，如下所示：
+```
+- `$= '[['+moment().format("YYYY-MM-DD")+'|今天]]'`
+```
+它将创建一个显示“今天”的按钮并指向您的每日笔记。
+
+2. URL方案
+
+如果您使用的是 Apple 产品，MacOS 和 IOS 都有详尽的 URL 方案，允许您使用 URL 打开几乎任何应用程序，甚至可以在应用程序内执行某些操作（例如打开特定笔记；在 IBooks 中打开特定书籍等）我安装了一个名为 REEDER 的 RSS 阅读器，并使用此按钮打开它
+```
+	- [Reeder](reeder://)
+```
