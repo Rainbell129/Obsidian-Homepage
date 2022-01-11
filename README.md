@@ -1,3 +1,20 @@
+
+2022-01-11 Update:
+1. Add status bar styling to the project tracking section. 
+
+
+<img width="723" alt="Screen Shot 2022-01-11 at 3 46 06 PM" src="https://user-images.githubusercontent.com/58488160/148901554-0a82fbd2-8404-4589-82f3-af82c0a793bb.png">
+
+
+<img width="723" alt="Screen Shot 2022-01-11 at 3 50 43 PM" src="https://user-images.githubusercontent.com/58488160/148902155-a1c2770f-3737-456b-893f-96b9da660342.png">
+
+
+<img width="1446" alt="Screen Shot 2022-01-11 at 3 48 37 PM" src="https://user-images.githubusercontent.com/58488160/148901893-49b31f09-b23a-4d4c-853e-de8f42d09d76.png">
+
+
+
+---
+
 2022-01-07 Update:
 1. Fixed mobile view of the homepage;
 2. Made modifications to allow an all-theme homepage view.
@@ -12,9 +29,13 @@ A dashboard for your obsidian vault.
 
 
 Currently the homepage features 
-1. A map of contents that leads to different parts in your vaults (such as your daily notes, weekly notes an other periodic notes), 
+1. A map of contents that leads to different parts in your vaults (such as your daily notes, weekly notes an other periodic notes);
+![IMG_6675](https://user-images.githubusercontent.com/58488160/148902450-b1e55944-619b-471c-bf90-763f7f9725bc.GIF)
+
 2. Three button tabs that allow you to switch between different parts you'd like to display. Currently there's a music of the month and automatic birthday countdown featured (this part is supported by React Components).  
 3. A dynamic view of different sections in your daily note (in my case they are diaries, daily agendas, and my parrot logs)
+<img width="723" alt="Screen Shot 2022-01-11 at 3 54 05 PM" src="https://user-images.githubusercontent.com/58488160/148902583-89cfc58f-4300-4495-ba6f-1eb93c915f20.png">
+
 4. A project tracking for notes with the tag #project.
 5. A Currently Reading section yet to be automatized
 6. Obsidian activity.
@@ -23,11 +44,11 @@ Currently the homepage features
 To use this homepage:
 
 1. Install Dataview, Banners, React Components, Admonition and Obsidian Activity;
-2. The theme Blue Topaz is suggested for its extra support for Admonition: After the theme is installed, download the plugin Style Settings and enable Admonition Support in it (Otherwise you might not have the flex view with sections taken from your daily notes)
+2. The theme Blue Topaz is suggested;
 3. Enable React Components; Create a components folder and put "music and birthday countdown.md" in it;
 4. Add the two css files to your css snippets;
 5. Dataview: enable dataviewjs and inline queries;
-6. Admonition: create an "ad-col2" view with no background colors and no codeblock names (21/12/27: If you have updated Obsidian to v13.14, the admonition blocks might not yet be successfully rendered. It is expected the problem will be fixed in the following versions of Admonition, but right now, to use the homepage, Obsidian v12.19 is recommended);
+6. Admonition: create an "ad-col2" view with no background colors and no codeblock names;
 7. Open the 00.Homepage note in your vault and get all sections personalized. 
 
 Extra notes:
