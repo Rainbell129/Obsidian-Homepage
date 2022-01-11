@@ -106,7 +106,8 @@ If you are using Apple products, both MacOS and IOS have extensive URL schemes t
 ## 目前主页功能
 
 1. 一个**导航**，可通向您的Obsidian库中的不同部分（例如您的每日笔记、每周笔记和其他定期笔记），
-<img width="400" alt="Screen Shot 2022-01-11 at 3 54 05 PM" src="https://user-images.githubusercontent.com/58488160/148902583-89cfc58f-4300-4495-ba6f-1eb93c915f20.png">
+<img width="403" alt="IMG_6675" src="https://user-images.githubusercontent.com/58488160/148902450-b1e55944-619b-471c-bf90-763f7f9725bc.GIF">
+
 2. 三个选项标签，可让您在要显示的不同部分之间切换。目前有**本月音乐**和自动**生日倒计时**功能。
 3. **每日笔记**中不同部分的动态视图（在我的情况下，它们是日记、每日议程和我的鹦鹉日志）
 4. 带有标签#project 的笔记**项目跟踪**。
