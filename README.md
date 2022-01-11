@@ -83,6 +83,7 @@ With the plugin Advanced URI you can create a url for literally anything. Curren
 There are several kinds of dynamic buttons in the MOC part.
 
 1. Periodic Notes
+
 Supposing you have a daily note formatted YYYY-MM-DD, you should write the md link as followed:
 ```
 - `$= '[['+moment().format("YYYY-MM-DD")+'|Today]]'`
@@ -90,7 +91,9 @@ Supposing you have a daily note formatted YYYY-MM-DD, you should write the md li
 It'll create a button displaying "Today" and leads to your daily note.
 
 2. URL scheme
+
 If you are using Apple products, both MacOS and IOS have extensive URL schemes that allow you to open almost any app using URL, even perfoming some actions within the app (e.g. open a specific note; open a specific book in IBooks, etc.) I have installed a RSS reader called REEDER and am using this button to open it
+
 ```
 	- [Reeder](reeder://)
 ```
@@ -149,6 +152,7 @@ tags： project
 ### Advanced URI
 
 使用插件 Advanced URI，您可以为几乎任何内容和操作创建一个 url。目前我只使用它来运行两个命令：
+
 1.打开Big Calendar
 2.打开Memos
 
