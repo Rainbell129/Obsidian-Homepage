@@ -43,6 +43,8 @@ To use this homepage:
 4. Add the two css files to your css snippets;
 5. Dataview: enable dataviewjs and inline queries;
 6. Admonition: create an "ad-col2" view with no background colors and no codeblock names;
+![image](https://user-images.githubusercontent.com/58488160/148969115-e53248c2-4348-4fba-97f6-331bc1cf515a.png)
+
 7. Open the 00.Homepage note in your vault and get all sections personalized. 
 
 Extra notes:
@@ -72,11 +74,12 @@ in the YAML section of your single note project. It's based on https://gist.gith
 要使用此主页：
 
 1. 安装Dataview、Banners、React Components、Admonition和Obsidian Activity；
-2. . 建议使用 Blue Topaz 主题，因为它对 Admonition 的额外支持：安装主题后，下载插件 Style Settings 并在其中启用 Admonition Support（否则您可能没有包含日常笔记部分的分栏视图）
+2. 建议使用 Blue Topaz 主题，因为它对 Admonition 的额外支持：安装主题后，下载插件 Style Settings 并在其中启用 Admonition Support（否则您可能没有包含日常笔记部分的分栏视图）
 4. 启用React Components；创建一个components文件夹，把“音乐和生日倒计时.md”放进去；
 5. 将这两个 css 文件添加到您的 css 片段中；
 6. Dataview：启用dataviewjs和inline queries；
-7. Admonition：创建一个没有背景颜色和代码块名称的“ad-col2”；
+7. Admonition：创建一个没有背景颜色和代码块名称的“ad-col2”，配置如下图；
+![image](https://user-images.githubusercontent.com/58488160/148969142-25886cb3-43c2-4a06-8f6e-3440baa1d019.png)
 8. 在您的 Vault 中打开 00.Homepage，并让所有部分都个性化。
 
 额外说明：
