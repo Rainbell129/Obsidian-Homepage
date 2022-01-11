@@ -3,10 +3,10 @@
 1. Add status bar styling to the project tracking section. 
 
 
-<img width="723" alt="Screen Shot 2022-01-11 at 3 46 06 PM" src="https://user-images.githubusercontent.com/58488160/148901554-0a82fbd2-8404-4589-82f3-af82c0a793bb.png">
+<img width="300" alt="Screen Shot 2022-01-11 at 3 46 06 PM" src="https://user-images.githubusercontent.com/58488160/148901554-0a82fbd2-8404-4589-82f3-af82c0a793bb.png">
 
 
-<img width="723" alt="Screen Shot 2022-01-11 at 3 50 43 PM" src="https://user-images.githubusercontent.com/58488160/148902155-a1c2770f-3737-456b-893f-96b9da660342.png">
+<img width="300" alt="Screen Shot 2022-01-11 at 3 50 43 PM" src="https://user-images.githubusercontent.com/58488160/148902155-a1c2770f-3737-456b-893f-96b9da660342.png">
 
 
 ---
