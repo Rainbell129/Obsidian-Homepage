@@ -28,7 +28,7 @@ Currently the homepage features
 
 2. Three button tabs that allow you to switch between different parts you'd like to display. Currently there's a music of the month and automatic birthday countdown featured (this part is supported by React Components).  
 3. A dynamic view of different sections in your daily note (in my case they are diaries, daily agendas, and my parrot logs)
-<img width="723" alt="Screen Shot 2022-01-11 at 3 54 05 PM" src="https://user-images.githubusercontent.com/58488160/148902583-89cfc58f-4300-4495-ba6f-1eb93c915f20.png">
+<img width="400" alt="Screen Shot 2022-01-11 at 3 54 05 PM" src="https://user-images.githubusercontent.com/58488160/148902583-89cfc58f-4300-4495-ba6f-1eb93c915f20.png">
 
 4. A project tracking for notes with the tag #project.
 5. A Currently Reading section yet to be automatized
@@ -43,7 +43,9 @@ Currently the homepage features
 4. Add the two css files to your css snippets;
 5. Dataview: enable dataviewjs and inline queries;
 6. Admonition: create an "ad-col2" view with no background colors and no codeblock names;
-![image](https://user-images.githubusercontent.com/58488160/148969115-e53248c2-4348-4fba-97f6-331bc1cf515a.png)
+
+<img width="400" alt="Screen Shot 2022-01-11 at 11 48 36 PM" src="https://user-images.githubusercontent.com/58488160/148975172-0553c210-6b53-4f39-b00e-e8bfd28cabc9.png">
+
 
 7. Open the 00.Homepage note in your vault and get all sections personalized. 
 
@@ -112,7 +114,7 @@ If you are using Apple products, both MacOS and IOS have extensive URL schemes t
 5. 将这两个 css 文件添加到您的 css 片段中；
 6. Dataview：启用dataviewjs和inline queries；
 7. Admonition：创建一个没有背景颜色和代码块名称的“ad-col2”，配置如下图；
-![image](https://user-images.githubusercontent.com/58488160/148969142-25886cb3-43c2-4a06-8f6e-3440baa1d019.png)
+<img width="400" alt="Screen Shot 2022-01-11 at 11 48 36 PM" src="https://user-images.githubusercontent.com/58488160/148975172-0553c210-6b53-4f39-b00e-e8bfd28cabc9.png">
 8. 在您的 Vault 中打开 00.Homepage，并让所有部分都个性化。
 
 额外说明：
