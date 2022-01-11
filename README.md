@@ -25,7 +25,9 @@ A dashboard for your obsidian vault.
 ## Features
 Currently the homepage features 
 1. A map of contents that leads to different parts in your vaults (such as your daily notes, weekly notes an other periodic notes);
-![IMG_6675](https://user-images.githubusercontent.com/58488160/148902450-b1e55944-619b-471c-bf90-763f7f9725bc.GIF)
+
+<img width="403" alt="IMG_6675" src="https://user-images.githubusercontent.com/58488160/148902450-b1e55944-619b-471c-bf90-763f7f9725bc.GIF">
+
 
 2. Three button tabs that allow you to switch between different parts you'd like to display. Currently there's a music of the month and automatic birthday countdown featured (this part is supported by React Components).  
 3. A dynamic view of different sections in your daily note (in my case they are diaries, daily agendas, and my parrot logs)
