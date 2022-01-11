@@ -95,7 +95,7 @@ It'll create a button displaying "Today" and leads to your daily note.
 If you are using Apple products, both MacOS and IOS have extensive URL schemes that allow you to open almost any app using URL, even perfoming some actions within the app (e.g. open a specific note; open a specific book in IBooks, etc.) I have installed a RSS reader called REEDER and am using this button to open it
 
 ```
-	- [Reeder](reeder://)
+- [Reeder](reeder://)
 ```
 
 
@@ -155,6 +155,7 @@ tags： project
 使用插件 Advanced URI，您可以为几乎任何内容和操作创建一个 url。目前我只使用它来运行两个命令：
 
 1.打开Big Calendar
+
 2.打开Memos
 
 <img width="400" alt="Screen Shot 2022-01-11 at 11 37 18 PM" src="https://user-images.githubusercontent.com/58488160/148973246-454388c4-e1cf-4e2e-8a59-d737c49f03bf.png">
@@ -175,5 +176,5 @@ MOC部分有几种动态按钮。
 
 如果您使用的是 Apple 产品，MacOS 和 IOS 都有详尽的 URL 方案，允许您使用 URL 打开几乎任何应用程序，甚至可以在应用程序内执行某些操作（例如打开特定笔记；在 IBooks 中打开特定书籍等）我安装了一个名为 REEDER 的 RSS 阅读器，并使用此按钮打开它
 ```
-	- [Reeder](reeder://)
+- [Reeder](reeder://)
 ```
