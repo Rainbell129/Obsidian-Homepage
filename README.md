@@ -61,11 +61,11 @@ in the YAML section of your single note project. It's based on https://gist.gith
 ### Customizable Page Header
 With this plugin you can quickly access your homepage (Homepage plugin required) from anywhere, both on PC and your phone. 
 
-<img width="812" alt="Screen Shot 2022-01-11 at 11 27 19 PM" src="https://user-images.githubusercontent.com/58488160/148972407-0d7b57c5-39bf-4f90-9d1a-e77ff380d163.png">
+<img width="400" alt="Screen Shot 2022-01-11 at 11 27 19 PM" src="https://user-images.githubusercontent.com/58488160/148972407-0d7b57c5-39bf-4f90-9d1a-e77ff380d163.png">
 
 Settings:
 
-<img width="1078" alt="Screen Shot 2022-01-11 at 11 45 03 PM" src="https://user-images.githubusercontent.com/58488160/148974533-0a0386c6-368d-4c51-b957-3b3c1b0a54f5.png">
+<img width="400" alt="Screen Shot 2022-01-11 at 11 45 03 PM" src="https://user-images.githubusercontent.com/58488160/148974533-0a0386c6-368d-4c51-b957-3b3c1b0a54f5.png">
 
 ### Advanced URI
 
@@ -93,7 +93,7 @@ If you are using Apple products, both MacOS and IOS have extensive URL schemes t
 
 # Obsidian 主页
 
-<img width="1446" alt="Screen Shot 2022-01-11 at 3 48 37 PM" src="https://user-images.githubusercontent.com/58488160/148901893-49b31f09-b23a-4d4c-853e-de8f42d09d76.png">
+<img width="400" alt="Screen Shot 2022-01-11 at 3 48 37 PM" src="https://user-images.githubusercontent.com/58488160/148901893-49b31f09-b23a-4d4c-853e-de8f42d09d76.png">
 
 目前主页功能
 1. 一个**导航**，可通向您的Obsidian库中的不同部分（例如您的每日笔记、每周笔记和其他定期笔记），
@@ -131,12 +131,12 @@ tags： project
 使用此插件，您可以在 PC 和手机上的任何地方快速访问您的主页（需要Homepage插件）。
 
 
-<img width="812" alt="Screen Shot 2022-01-11 at 11 27 19 PM" src="https://user-images.githubusercontent.com/58488160/148972407-0d7b57c5-39bf-4f90-9d1a-e77ff380d163.png">
+<img width="400" alt="Screen Shot 2022-01-11 at 11 27 19 PM" src="https://user-images.githubusercontent.com/58488160/148972407-0d7b57c5-39bf-4f90-9d1a-e77ff380d163.png">
 
 
 设置：
 
-<img width="1078" alt="Screen Shot 2022-01-11 at 11 45 03 PM" src="https://user-images.githubusercontent.com/58488160/148974533-0a0386c6-368d-4c51-b957-3b3c1b0a54f5.png">
+<img width="400" alt="Screen Shot 2022-01-11 at 11 45 03 PM" src="https://user-images.githubusercontent.com/58488160/148974533-0a0386c6-368d-4c51-b957-3b3c1b0a54f5.png">
 
 
 ### Advanced URI
