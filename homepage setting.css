@@ -1,7 +1,20 @@
+progress {
+  width: 80px;
+  height: 7px;
+  border: 1px solid #000;  
+  background-color:#e6e6e6;
+  color: var(--text-accent); /*IE10*/
+}
+
+progress::-moz-progress-bar { background: var(--text-accent); }
+progress::-webkit-progress-bar { background: #e6e6e6; }
+progress::-webkit-progress-value  { background: var(--text-accent); }
+
+
 /* minimal 优化 */
 
 .myhome .internal-embed .markdown-embed {
-  border: 0x solid var(--quote-opening-modifier);
+  border: 0px solid var(--background-modifier-border);
 }
 
 /* react components 设置 */ 
@@ -26,6 +39,10 @@ div.musicBirthday{
 }
 .myhome .admonition-col2 ul > li.task-list-item {
   flex: 1 1 90%;
+}
+
+.myhome .admonition-flex ul > li.task-list-item {
+  flex: 1 1 99%;
 }
 
 
