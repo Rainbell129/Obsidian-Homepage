@@ -9,10 +9,6 @@
 <img width="723" alt="Screen Shot 2022-01-11 at 3 50 43 PM" src="https://user-images.githubusercontent.com/58488160/148902155-a1c2770f-3737-456b-893f-96b9da660342.png">
 
 
-<img width="1446" alt="Screen Shot 2022-01-11 at 3 48 37 PM" src="https://user-images.githubusercontent.com/58488160/148901893-49b31f09-b23a-4d4c-853e-de8f42d09d76.png">
-
-
-
 ---
 
 2022-01-07 Update:
@@ -63,6 +59,8 @@ in the YAML section of your single note project. It's based on https://gist.gith
 
 
 # Obsidian 主页
+
+<img width="1446" alt="Screen Shot 2022-01-11 at 3 48 37 PM" src="https://user-images.githubusercontent.com/58488160/148901893-49b31f09-b23a-4d4c-853e-de8f42d09d76.png">
 
 目前主页功能
 1. 一个**导航**，可通向您的Obsidian库中的不同部分（例如您的每日笔记、每周笔记和其他定期笔记），
