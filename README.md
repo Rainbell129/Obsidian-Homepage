@@ -163,6 +163,9 @@ Then you are all set! Now the date will automatically update whenever you open O
 
 2. 三个选项标签，可让您在要显示的不同部分之间切换。目前有**本月音乐**和自动**生日倒计时**功能。
 3. **每日笔记**中不同部分的动态视图（在我的情况下，它们是日记、每日议程和我的鹦鹉日志）
+
+（注：该功能由dataview js实现，但是dvjs有一个重大缺陷：每次在对源文件修改时，主页中的嵌入部分都会坍缩。如果你想避免这个问题，请参见文末### 通过Quickadd自动更新主页日期）
+
 4. 带有标签#project 的笔记**项目跟踪**。
 5. **目前阅读**部分尚未自动化
 6. Obsidian动态记录。
