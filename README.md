@@ -33,6 +33,8 @@ Currently the homepage features
 3. A dynamic view of different sections in your daily note (in my case they are diaries, daily agendas, and my parrot logs)
 <img width="400" alt="Screen Shot 2022-01-11 at 3 54 05 PM" src="https://user-images.githubusercontent.com/58488160/148902583-89cfc58f-4300-4495-ba6f-1eb93c915f20.png">
 
+- using dataviewjs to to present the daily note embeds is convinient but it has one drawback which I simply cannot accept, that is, it will crash down every time when you edit the daily note. There is now an alternative to this which I recommend, using quickadd macro. Please check the ### QA automatic date update for more information. 
+
 4. A project tracking for notes with the tag #project.
 5. A Currently Reading section yet to be automatized
 6. Obsidian activity.
@@ -97,6 +99,57 @@ If you are using Apple products, both MacOS and IOS have extensive URL schemes t
 ```
 - [Reeder](reeder://)
 ```
+
+### QA Automatic Date Update
+
+This is a roundabout way to display dynamic daily notes embeds in our homepage. Originally, we used Dataviewjs to achieve this, but with dvjs we have to refresh the page every time we made modifications to the daily note (I frequently modified daily note while staying on my homepage with quickadd).
+
+Now there is a more stable way using quickadd macro. 
+
+We will start with this codeblock (it is present in the 00. homepage.md file, but hidden with %%.
+
+```ad-col2
+
+![[2022年01月19日#日记]]
+
+![[2022年01月19日#日程]]
+
+![[Pasted image 20211221152043.png#center|200]]
+
+![[2022年01月18日#鸟崽]]
+
+```
+
+In which I display three sections of my daily note.
+
+<img width="400" alt="Screen Shot 2022-01-19 at 9 46 36 AM" src="https://user-images.githubusercontent.com/58488160/150048127-213a5749-de87-4e08-b82f-4866ce395a9e.png">
+
+Then, we install quickadd, click on `manage macros`, then add a new macro `Date Update` set to run on plugin load. 
+
+<img width="400" alt="Screen Shot 2022-01-19 at 9 48 11 AM" src="https://user-images.githubusercontent.com/58488160/150048302-26ad414a-fec3-4d9c-b585-a013e5b84e7c.png">
+
+Next, download the `DateUpdate.js` script to anyplace in your vault. 
+
+Open the script with any editor, and change the homepage filepath and section formats according to the instructions. 
+
+<img width="400" alt="Screen Shot 2022-01-19 at 9 51 37 AM" src="https://user-images.githubusercontent.com/58488160/150048614-8c6bab56-b9a2-48f1-8674-9a892bbc44b6.png">
+
+
+<img width="400" alt="Screen Shot 2022-01-19 at 9 51 50 AM" src="https://user-images.githubusercontent.com/58488160/150048633-827172ac-de75-41f0-a8ff-1ee09614ca99.png">
+
+
+
+Configure the new macro, and you'll see DateUpdate listed in the userscript. 
+
+<img width="400" alt="Screen Shot 2022-01-19 at 9 50 11 AM" src="https://user-images.githubusercontent.com/58488160/150048472-962cc7ba-40b9-45c6-aa0d-b01802cef72f.png">
+
+Add it. 
+
+<img width="400" alt="Screen Shot 2022-01-19 at 9 52 38 AM" src="https://user-images.githubusercontent.com/58488160/150048708-833d43fa-9e77-41a1-8762-ebeeba1ac9f7.png">
+
+Then you are all set! Now the date will automatically update whenever you open Obsidian. 
+
+
 
 
 # Obsidian 主页
@@ -178,3 +231,52 @@ MOC部分有几种动态按钮。
 ```
 - [Reeder](reeder://)
 ```
+
+### 通过Quickadd自动更新主页日期
+
+这是一种在我们的主页中动态显示嵌入的每日笔记的迂回方式。 本来，我们使用Dataviewjs来实现这一点，但是，使用dvjs的话，每次修改日记，主页中的嵌入都会坍缩（我经常在主页页面上使用quickadd修改每日笔记）。
+
+现在有一种更稳定的方式，即使用 quickadd 宏。
+
+我们将从这个代码块开始（它存在于 00.homepage.md 文件中，但用 %% 隐藏。
+
+```ad-col2
+
+![[2022年01月19日#日记]]
+
+![[2022年01月19日#日程]]
+
+![[Pasted image 20211221152043.png#center|200]]
+
+![[2022年01月18日#鸟崽]]
+
+```
+
+我在其中展示了我的Daily Note的三个部分。
+
+<img width="400" alt="Screen Shot 2022-01-19 at 9 46 36 AM" src="https://user-images.githubusercontent.com/58488160/150048127-213a5749-de87-4e08-b82f-4866ce395a9e.png">
+
+然后，我们安装 quickadd，点击“管理宏 (manage macros)”，然后添加一个新的宏“日期更新”，设置为在插件加载时运行(run on plugin load)。
+
+<img width="400" alt="Screen Shot 2022-01-19 at 9 48 11 AM" src="https://user-images.githubusercontent.com/58488160/150048302-26ad414a-fec3-4d9c-b585-a013e5b84e7c.png">
+
+接下来，将 `DateUpdate.js` 脚本下载到库中的任何位置。
+
+使用任何编辑器打开脚本，并根据说明更改主页文件路径和部分格式。
+
+<img width="400" alt="Screen Shot 2022-01-19 at 9 51 37 AM" src="https://user-images.githubusercontent.com/58488160/150048614-8c6bab56-b9a2-48f1-8674-9a892bbc44b6.png">
+
+
+<img width="400" alt="Screen Shot 2022-01-19 at 9 51 50 AM" src="https://user-images.githubusercontent.com/58488160/150048633-827172ac-de75-41f0-a8ff-1ee09614ca99.png">
+
+
+
+配置新宏，您将看到用户脚本中列出的DateUpdate。
+
+<img width="400" alt="Screen Shot 2022-01-19 at 9 50 11 AM" src="https://user-images.githubusercontent.com/58488160/150048472-962cc7ba-40b9-45c6-aa0d-b01802cef72f.png">
+
+添加。
+
+<img width="400" alt="Screen Shot 2022-01-19 at 9 52 38 AM" src="https://user-images.githubusercontent.com/58488160/150048708-833d43fa-9e77-41a1-8762-ebeeba1ac9f7.png">
+
+一切准备就绪！ 现在，只要您打开 Obsidian，日期就会自动更新。 
