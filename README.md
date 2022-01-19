@@ -42,7 +42,7 @@ Currently the homepage features
 
 ## To use this homepage
 
-1. Install Dataview, Banners, React Components, Admonition and Obsidian Activity;
+1. Install Dataview, Banners, React Components, Admonition and Activity History (Quickadd optional);
 2. The theme Blue Topaz is suggested;
 3. Enable React Components; Create a components folder and put "music and birthday countdown.md" in it;
 4. Add the two css files to your css snippets;
@@ -173,8 +173,8 @@ Then you are all set! Now the date will automatically update whenever you open O
 
 ## 要使用此主页
 
-1. 安装Dataview、Banners、React Components、Admonition和Obsidian Activity；
-2. 建议使用 Blue Topaz 主题，因为它对 Admonition 的额外支持：安装主题后，下载插件 Style Settings 并在其中启用 Admonition Support（否则您可能没有包含日常笔记部分的分栏视图）
+1. 安装Dataview、Banners、React Components、Admonition和Activity History (推荐下载 Quickadd，加速工作流）；
+2. 建议使用 Blue Topaz 主题，效果总体较好；
 4. 启用React Components；创建一个components文件夹，把“音乐和生日倒计时.md”放进去；
 5. 将这两个 css 文件添加到您的 css 片段中；
 6. Dataview：启用dataviewjs和inline queries；
