@@ -33,7 +33,7 @@ Currently the homepage features
 3. A dynamic view of different sections in your daily note (in my case they are diaries, daily agendas, and my parrot logs)
 <img width="400" alt="Screen Shot 2022-01-11 at 3 54 05 PM" src="https://user-images.githubusercontent.com/58488160/148902583-89cfc58f-4300-4495-ba6f-1eb93c915f20.png">
 
-- using dataviewjs to to present the daily note embeds is convinient but it has one drawback which I simply cannot accept, that is, it will crash down every time when you edit the daily note. There is now an alternative to this which I recommend, using quickadd macro. Please check the ### QA automatic date update for more information. 
+- using dataviewjs to to present the daily note embeds is convenient but it has one drawback which I simply cannot endure, that is, it will crash down every time you edit the daily note (which I do a lot through quickadd while staying on homepage). There is now an alternative to this which I recommend using quickadd macro. Please check the `### QA automatic date update` for more information. 
 
 4. A project tracking for notes with the tag #project.
 5. A Currently Reading section yet to be automatized
@@ -45,14 +45,14 @@ Currently the homepage features
 1. Install Dataview, Banners, React Components, Admonition and Activity History (Quickadd optional);
 2. The theme Blue Topaz is suggested;
 3. Enable React Components; Create a components folder and put "music and birthday countdown.md" in it;
-4. Add the two css files to your css snippets;
+4. Add the two css files to your css snippets folder;
 5. Dataview: enable dataviewjs and inline queries;
 6. Admonition: create an "ad-col2" view with no background colors and no codeblock names;
 
 <img width="400" alt="Screen Shot 2022-01-11 at 11 48 36 PM" src="https://user-images.githubusercontent.com/58488160/148975172-0553c210-6b53-4f39-b00e-e8bfd28cabc9.png">
 
 
-7. Open the 00.Homepage note in your vault and get all sections personalized. 
+7. Open the `00. Homepage.md` note in your vault and get all sections personalized. 
 
 ## Extra notes
 1. To use birthday countdown function, you'll need to create a page with the name of the persons/pets you'd like to have a countdown for and add "birthday: YYYY-MM-DD" in the YAML.
@@ -62,7 +62,7 @@ target: 10000
 status: in progress
 tags: project
 ```
-in the YAML section of your single note project. It's based on https://gist.github.com/chrisgrieser/ac16a80cdd9e8e0e84606cc24e35ad99 so you can check there for more info. 
+in the YAML section of your single note project. It's based on [WordCountTable](https://gist.github.com/chrisgrieser/ac16a80cdd9e8e0e84606cc24e35ad99) so you can check there for more info. 
 
 ## Tricks
 ### Customizable Page Header
@@ -81,16 +81,23 @@ With the plugin Advanced URI you can create a url for literally anything. Curren
 2. open memos
 <img width="400" alt="Screen Shot 2022-01-11 at 11 37 18 PM" src="https://user-images.githubusercontent.com/58488160/148973246-454388c4-e1cf-4e2e-8a59-d737c49f03bf.png">
 
+
 ### Dynamic Buttons
 There are several kinds of dynamic buttons in the MOC part.
 
 1. Periodic Notes
 
 Supposing you have a daily note formatted YYYY-MM-DD, you should write the md link as followed:
+
 ```
 - `$= '[['+moment().format("YYYY-MM-DD")+'|Today]]'`
 ```
+
 It'll create a button displaying "Today" and leads to your daily note.
+
+Some other suggestions with Advanced URI
+- you can change the current daily note button to link to the `command: open daily note` which would create the daily note with your chosen template when it does not exist. 
+
 
 2. URL scheme
 
