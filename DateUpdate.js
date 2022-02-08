@@ -20,7 +20,7 @@ module.exports = async (params) => {
     const yesterdayParrotFormat = "![[" + year + "年" + month + "月" + yesterday + "日#鸟崽]]";
 // 读写文件
 // READ AND EDIT FILE
-    let data = await app.vault.adapter.read(file);
+    let data = await app.vault.adapter.read(filePath);
     // 将年，月，日，#鸟崽等标题 替换成你自己的格式
     // replace the characters with your own format (e.g if you have a section named "YYYY-MM-DD#Dairy
     // you should adopt regex like this
