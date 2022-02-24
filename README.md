@@ -4,7 +4,7 @@
 1. Add task-based Project Tracking which would present a progress bar of finished_tasks/all_tasks in the project page. (To use, include `target: tasks` and `tags: project` in the YAML section.
 2. Deleted Profile photo; Added Banners Icon.
 
-<img width="400" alt="Screen Shot 2022-02-24 at 3 46 06 PM" src="https://user-images.githubusercontent.com/58488160/155524930-a444076c-07b2-45c2-9e02-d703f428f0ec.jpg">
+<img width="400" alt="Screen Shot 2022-02-24 at 8 39 04 PM" src="https://user-images.githubusercontent.com/58488160/155525663-69fd4c53-10a2-4a25-a13c-93b18e9a6d18.png">
 
 2022-01-11 Update:
 1. Add status bar styling to the project tracking section. 
