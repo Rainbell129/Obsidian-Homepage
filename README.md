@@ -1,5 +1,12 @@
 **中文说明请往下翻**
 
+2022-02-24 Update:
+1. Add task-based Project Tracking which would present a progress bar of finished_tasks/all_tasks in the project page. (To use, include `target: tasks` and `tags: project` in the YAML section.
+2. Deleted Profile photo; Added Banners Icon.
+
+![259861645704678_ pic](https://user-images.githubusercontent.com/58488160/155524930-a444076c-07b2-45c2-9e02-d703f428f0ec.jpg)
+
+
 2022-01-11 Update:
 1. Add status bar styling to the project tracking section. 
 
@@ -63,6 +70,14 @@ status: in progress
 tags: project
 ```
 in the YAML section of your single note project. It's based on [WordCountTable](https://gist.github.com/chrisgrieser/ac16a80cdd9e8e0e84606cc24e35ad99) so you can check there for more info. 
+
+If your project is tasks-based, and you want the progress bar to depict finished_tasks/all_tasks instead, use the YAML
+```
+target: tasks
+status: in progress
+tags: project
+```
+
 
 ## Tricks
 ### Customizable Page Header
@@ -199,6 +214,14 @@ tags： project
 ```
 在单笔记项目的 YAML 部分。它基于 https://gist.github.com/chrisgrieser/ac16a80cdd9e8e0e84606cc24e35ad99
 因此您可以在此处查看更多信息。
+
+如果你想使用“完成任务/总任务”来进行项目进度追踪，请使用如下YAML：
+```
+target: tasks
+status: in progress
+tags: project
+```
+
 
 ## 技巧
 ### Customizable Page Header
