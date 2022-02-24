@@ -1,7 +1,7 @@
 **中文说明请往下翻**
 
 2022-02-24 Update:
-1. Add task-based Project Tracking which would present a progress bar of finished_tasks/all_tasks in the project page. (To use, include `target: tasks` and `tags: project` in the YAML section.
+1. Add task-based Project Tracking which would present a progress bar of finished_tasks/all_tasks in the project page. (To use, include `target: tasks` and `tags: project` in the YAML section and enable `sharetype.css` for special tag styling.
 2. Deleted Profile photo; Added Banners Icon.
 
 <img width="400" alt="Screen Shot 2022-02-24 at 8 39 04 PM" src="https://user-images.githubusercontent.com/58488160/155525663-69fd4c53-10a2-4a25-a13c-93b18e9a6d18.png">
@@ -76,7 +76,7 @@ target: tasks
 status: in progress
 tags: project
 ```
-
+Enable `sharetype.css` for special tag styling.
 
 ## Tricks
 ### Customizable Page Header
@@ -221,6 +221,7 @@ status: in progress
 tags: project
 ```
 
+如果需要标签效果，请启用`sharetype.css`css片段。
 
 ## 技巧
 ### Customizable Page Header
