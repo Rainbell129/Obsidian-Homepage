@@ -31,20 +31,20 @@ A dashboard for your obsidian vault.
 <img width="403" alt="IMG_7055" src="https://user-images.githubusercontent.com/58488160/147173306-3bdd2289-6dd1-4603-9ba7-24d8510dd29f.PNG">
 
 ## Features
-Currently the homepage features 
+Currently the homepage features:
 1. A map of contents that leads to different parts in your vaults (such as your daily notes, weekly notes an other periodic notes);
 
 <img width="403" alt="IMG_6675" src="https://user-images.githubusercontent.com/58488160/148902450-b1e55944-619b-471c-bf90-763f7f9725bc.GIF">
 
 
-2. Three button tabs that allow you to switch between different parts you'd like to display. Currently there's a music of the month and automatic birthday countdown featured (this part is supported by React Components).  
-3. A dynamic view of different sections in your daily note (in my case they are diaries, daily agendas, and my parrot logs)
+2. Three button tabs that allow you to switch between different parts you'd like to display. Currently there's a music of the month and automatic birthday countdown featured (this part is supported by the plugin React Components);
+3. A dynamic view of different sections in your daily note (in my case they are diaries, daily agendas, and my parrot logs);
 <img width="400" alt="Screen Shot 2022-01-11 at 3 54 05 PM" src="https://user-images.githubusercontent.com/58488160/148902583-89cfc58f-4300-4495-ba6f-1eb93c915f20.png">
 
-- using dataviewjs to to present the daily note embeds is convenient but it has one drawback which I simply cannot endure, that is, it will crash down every time you edit the daily note (which I do a lot through quickadd while staying on homepage). There is now an alternative to this which I recommend using quickadd macro. Please check the `### QA automatic date update` for more information. 
+- using dataviewjs to to present the daily note embeds is convenient but it has one drawback which I simply cannot endure, that is, it will crash down every time you edit the daily note (which I do a lot through quickadd while staying on homepage). There is now an alternative to this which I recommend using quickadd macro. Please check `### QA automatic date update` for more information;
 
-4. A project tracking for notes with the tag #project.
-5. A Currently Reading section yet to be automatized
+4. A project tracking for notes with the tag #project;
+5. A Currently Reading section yet to be automatized;
 6. Obsidian activity.
 
 
@@ -53,7 +53,7 @@ Currently the homepage features
 1. Install Dataview, Banners, React Components, Admonition and Activity History (Quickadd optional);
 2. The theme Blue Topaz is suggested;
 3. Enable React Components; Create a components folder and put "music and birthday countdown.md" in it;
-4. Add the two css files to your css snippets folder;
+4. Add the two css files to your css snippets folder; (\* The css file disable hover preview for wiki links)
 5. Dataview: enable dataviewjs and inline queries;
 6. Admonition: create an "ad-col2" view with no background colors and no codeblock names;
 
@@ -109,7 +109,7 @@ Supposing you have a daily note formatted YYYY-MM-DD, you should write the md li
 - `$= '[['+moment().format("YYYY-MM-DD")+'|Today]]'`
 ```
 
-It'll create a button displaying "Today" and leads to your daily note.
+It'll create a button displaying "Today" that leads to your daily note.
 
 Some other suggestions with Advanced URI
 - you can change the current daily note button to link to the `command: open daily note` which would create the daily note with your chosen template when it does not exist. 
