@@ -6,6 +6,8 @@
 
 <img width="400" alt="Screen Shot 2022-02-24 at 8 39 04 PM" src="https://user-images.githubusercontent.com/58488160/155525663-69fd4c53-10a2-4a25-a13c-93b18e9a6d18.png">
 
+---
+
 2022-01-11 Update:
 1. Add status bar styling to the project tracking section. 
 
@@ -127,7 +129,7 @@ This is a roundabout way to display dynamic daily notes embeds in our homepage. 
 
 Now there is a more stable way using quickadd macro. 
 
-We will start with this codeblock (it is present in the 00. homepage.md file, but hidden with %%.
+We will start with this codeblock (it is present in the `00. homepage.md` file, but hidden with %%).
 
 ```ad-col2
 
@@ -271,7 +273,7 @@ MOC部分有几种动态按钮。
 
 现在有一种更稳定的方式，即使用 quickadd 宏。
 
-我们将从这个代码块开始（它存在于 00.homepage.md 文件中，但用 %% 隐藏。
+我们将从这个代码块开始（它存在于 `00.homepage.md` 文件中，但用 %% 隐藏）。
 
 ```ad-col2
 
