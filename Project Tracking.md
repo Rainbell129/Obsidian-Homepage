@@ -399,10 +399,10 @@ else share = (wcCount / section.target);
 
 let shareType = ""
 
-if (section.target == "tasks") shareType = "<span id='task'>任务</span> "
+if (section.target == "tasks") shareType = "<span id='task'>tasks</span> "
 //+ taskNum + "/" + (taskNum + finishedTasksNum)
 
-else shareType = "<span id='word'>字数</span> "
+else shareType = "<span id='word'>words</span> "
 //+ wcCount + "/" + section.target
 
 // Status
@@ -555,7 +555,7 @@ if (cumulativeShare === "true") countedEntity = "Target";
 
 const tcontent = await getTableContents();
 
-dv.table(["项目","标准","进度", "状态"], tcontent);
+dv.table(["Projects","Type","Progress", "Status"], tcontent);
 
 
 ```
