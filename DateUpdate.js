@@ -10,8 +10,8 @@ module.exports = async (params) => {
 //obtain yesterday date string
     date.setDate(date.getDate() - 1);
     const yesterday = date.getDate().toString().padStart(2, "0");
-// **  必须编辑成你自己的主页路径  **
-// **  MUST EDIT TO YOUR OWN PATH  **
+// **  必须编辑成你自己的主页的相对路径  **
+// **  MUST EDIT TO YOUR OWN PATH (RELATIVE PATH) **
     const filePath = "80 - Obsidian/主页/00. Homepage.md"
 // **  必须编辑成你想要显示的文件路径（替换“YYYY年MM月DD日#段标题”为你自己的日记格式）  **
 // **  MUST EDIT TO YOUR OWN FORMAT (REPLACE "YYYY年MM月DD日#heading" TO YOUR OWN DAILY NOTE FORMAT)  **
