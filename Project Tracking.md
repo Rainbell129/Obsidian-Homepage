@@ -391,7 +391,7 @@ if (toCount === "words") wcCount = getWordCount(content);
 
 if (toCount === "chars") wcCount = getCharacterCount(content);
 
-if (section.target == "tasks") share = (taskNum / (taskNum + finishedTasksNum));
+if (section.target == "tasks") share = (finishedTasksNum / (taskNum + finishedTasksNum));
 
 else share = (wcCount / section.target);
 
