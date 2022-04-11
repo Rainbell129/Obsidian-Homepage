@@ -1,5 +1,30 @@
+/* 设置banner icon */
+
+.myhome .obsidian-banner-icon .icon-box img
+{
+content: url("https://api.wolai.com/v1/icon?type=1&locale=en&pro=0&color=blue");
+}
+
+/* end */
+
+.markdown-rendered.show-indentation-guide li > ul::before {
+  content: unset;
+}
+
+@media (max-width: 800pt) and (min-width: 400pt) 
+{.myhome ul>li:not(.task-list-item) {
+  flex: 1 1 100%;
+}
+}
+/* 优化 */
+
+.admonition-flex .admonition-content div {
+  flex: 1;
+  margin: -0.6em 0em 0.1em 0.2em;
+}
+
 progress {
-  width: 80px;
+  width: 80px !important;
   height: 7px;
   border: 1px solid #000;  
   background-color:#e6e6e6;
@@ -25,6 +50,8 @@ div.musicBirthday{
 
 .myhome .external-link {
   background-image: none;
+  padding-right: 0;
+
 }
 
 
@@ -63,13 +90,15 @@ button {
   background-color: #acacac80;
 }
 
-.markdown-preview-view td:hover,.markdown-preview-view th:hover {
-  background-color: var(--interactive-accent);
-}
+/* dataview 背景设置 */
 
-.markdown-preview-view th, .markdown-preview-view td {
+/* .markdown-preview-view td:hover,.markdown-preview-view th:hover {
+  background-color: var(--interactive-accent);
+} */
+
+/* .markdown-preview-view th, .markdown-preview-view td {
   background-color: var(--background-primary);
-}
+} */
 
 /* 鼠标悬浮banner优先级设置 */
 
@@ -94,9 +123,9 @@ button {
 /* 按钮设置 Button Settings */
 
 /*双链预览面板*/
-.popover.hover-popover {
+/* .popover.hover-popover {
   display: none;
-  }
+  } */
 
 /*提示条
 .myhome .tooltip, .tooltip.mod-right {
@@ -123,7 +152,7 @@ a, .markdown-preview-view .internal-link {
 
 .external-link {
   text-decoration: none;
-  /*background-image: none;*/
+  background-image: none;
 }
 
 .myhome a {
@@ -165,12 +194,13 @@ a, .markdown-preview-view .internal-link {
 
 .myhome ul>li:not(.task-list-item) {
   flex: 1 1 20%;
-  padding: 0.1em 1em 0.1em 0.8em;
+  padding: 0.1em 0em 0.1em 0.1em;
   margin: 0 0.1em 0.3em 0  !important;
   list-style: none;
   border: 1px solid var(--p-myhome-border-color);
   border-left: 1px solid var(--p-myhome-border-color) !important;
-  border-radius: var(--radius-s);
+  /* border-radius: var(--radius-s); */
+  border-radius: 5pt;
   word-wrap: break-word;
   word-break: break-word;
 }
@@ -237,9 +267,9 @@ a, .markdown-preview-view .internal-link {
 }
 
 .myhome ul ul li:not(.task-list-item) {
-  width: 100%;
+  width: 90%;
   display: block;
-  background-color: #acacac80 !important;
+  background-color: #2b86b180 !important;
 }
 
 .myhome ul ul li:nth-child(even) {
@@ -534,6 +564,29 @@ a, .markdown-preview-view .internal-link {
    
 .admonition-col4-parent .admonition-col4 .admonition > .admonition-title.no-title + .admonition-content-holder {
   margin-top: 0;
+}
+
+/* flex */
+
+/*自适应分栏*/
+.admonition-flex {
+  margin: auto;
+ box-shadow:none;
+   
+ }
+ .admonition-flex >.admonition-content-holder {
+  margin-top:0!important;
+  margin-bottom:0!important;
+}
+.admonition-flex .admonition-content {
+ width: 100%;
+ margin: 0px;
+ display: flex;
+ flex-wrap: wrap;
+}
+.admonition-flex .admonition-content div{
+ flex: 1;
+ margin: 0 0.625rem;
 }
 
 
