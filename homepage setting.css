@@ -1,4 +1,42 @@
-/* 设置banner icon */
+/* countdown stickie css */
+
+.birdname {
+  background: white;
+/* text-shadow: 0 1px 0 rgba(19, 74, 70, 0.4); */
+
+border-top-left-radius: 3px;
+border-bottom-left-radius: 3px;
+padding-top: 5px;
+padding-bottom: 5px;
+color: black;
+box-shadow: 2px 2px 6px rgb(228, 228, 228);
+}
+
+.birdname:before, .birdname::after {
+  content: " ";
+}
+
+.countdowndays {
+background: #7AB893;
+text-shadow: 0 1px 0 rgba(19, 74, 70, 0.4);
+border-top-right-radius: 3px;
+border-bottom-right-radius: 3px;
+padding-top: 5px;
+padding-bottom: 5px;
+color: white;
+box-shadow: 2px 2px 6px rgb(228, 228, 228);
+}
+
+.birdcountdown{
+  margin-bottom: 10px;
+}
+
+.countdowndays:before, .countdowndays::after {
+  content: " ";
+}
+
+
+/* banner icon as date*/
 
 .myhome .obsidian-banner-icon .icon-box img
 {
@@ -7,9 +45,10 @@ content: url("https://api.wolai.com/v1/icon?type=1&locale=en&pro=0&color=blue");
 
 /* end */
 
-.markdown-rendered.show-indentation-guide li > ul::before {
+.markdown-rendered.show-indentation-guide li > ul::before, .markdown-rendered.show-indentation-guide li > ol::before {
   content: unset;
 }
+
 
 @media (max-width: 800pt) and (min-width: 400pt) 
 {.myhome ul>li:not(.task-list-item) {
