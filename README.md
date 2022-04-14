@@ -2,7 +2,8 @@
 2022-04-14 Update:
 1. Added banner icon as date today in `homepage setting.css`;
 2. Added stickie css for birthday countdown in `homepage setting.css`;
-<img width="400" alt="Homepage update 20220414" src="https://user-images.githubusercontent.com/58488160/163299754-be02277f-dc3d-4fd6-aee7-249e3d8f5731.jpg">
+
+<img width="400" alt="WeChat5e2e0344e00b1c22b7cce116230b8e6b" src="https://user-images.githubusercontent.com/58488160/163300022-5ba0e48d-7ba1-455c-babc-170b2b146df9.png">
 
 2022-02-24 Update:
 1. Added task-based Project Tracking which would present a progress bar of finished_tasks/all_tasks in the project page. (To use, include `target: tasks` and `tags: project` in the YAML section and enable `sharetype.css` for special tag styling.
