@@ -101,7 +101,9 @@ With the plugin Advanced URI you can create a url for literally anything. Curren
 1. open big calendar
 2. open memos
 <img width="400" alt="Screen Shot 2022-01-11 at 11 37 18 PM" src="https://user-images.githubusercontent.com/58488160/148973246-454388c4-e1cf-4e2e-8a59-d737c49f03bf.png">
+3. I also strongly recommend using Advanced URI to generate buttons for open daily notes (or monthly, weekly notes), for the dataviewjs code in the next section proves to be unreliable on mobile and cannot create the daily note when it doesn't exist.
 
+<img width="400" alt="Screen Shot 2022-04-20 at 8 14 16 PM" src="https://user-images.githubusercontent.com/58488160/164228044-b1e28c45-79c9-4c6c-8976-a9c2fa0a1885.png">
 
 ### Dynamic Buttons
 There are several kinds of dynamic buttons in the MOC part.
@@ -253,6 +255,8 @@ tags: project
 
 <img width="400" alt="Screen Shot 2022-01-11 at 11 37 18 PM" src="https://user-images.githubusercontent.com/58488160/148973246-454388c4-e1cf-4e2e-8a59-d737c49f03bf.png">
 
+3. 我也强烈推荐你使用这个插件来生成每日日记、每周周记、每月月记的按钮，因为在下一个章节会说到的Dataviewjs方案并不太可靠（在某个版本上它在手机上失效）。使用advanced uri还有一个好处，就是你没有日记的时候也可以点击该按钮直接生成日记，dataviewjs则做不到。
+<img width="400" alt="Screen Shot 2022-04-20 at 8 14 16 PM" src="https://user-images.githubusercontent.com/58488160/164228044-b1e28c45-79c9-4c6c-8976-a9c2fa0a1885.png">
 
 ### 动态按钮
 MOC部分有几种动态按钮。
