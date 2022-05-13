@@ -1,4 +1,22 @@
 **中文说明请往下翻**
+**现可以在Releases部分直接下载中文版示例库**
+
+2022-05-13 Update:
+1. Added an example vault (in Chinese). An English example vault will also be released this month. 
+<img width="400" alt="Screen Shot 2022-05-13 at 11 35 00 AM" src="https://user-images.githubusercontent.com/58488160/168206254-eb7f5370-6a4c-4be7-9244-27773caff64c.png">
+
+<!-- 
+<img width="400" alt="Screen Shot 2022-05-13 at 11 37 19 AM" src="https://user-images.githubusercontent.com/58488160/168206454-f3393dcf-eef5-4668-994b-2cbe5861ad4a.png">
+
+<img width="400" alt="Screen Shot 2022-05-13 at 11 37 35 AM" src="https://user-images.githubusercontent.com/58488160/168206474-fa111951-e7f5-41c6-99d0-4e281652e31b.png">
+
+
+<img width="400" alt="Screen Shot 2022-05-13 at 11 38 02 AM" src="https://user-images.githubusercontent.com/58488160/168206517-bb8fb779-50c0-4655-9718-5ab4c28e5479.png">
+
+ -->
+
+---
+
 2022-04-14 Update:
 1. Added banner icon as date today in `homepage setting.css`;
 2. Added stickie css for birthday countdown in `homepage setting.css`;
