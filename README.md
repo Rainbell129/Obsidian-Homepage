@@ -2,6 +2,11 @@
 
 **现可以在Releases部分直接下载中文版示例库**
 
+如果对示例库有任何疑问，欢迎扫描二维码进入Rainbell库答疑群，或者微信添加Rainbell0129询问。
+
+<img width="400" alt="QR" src="https://user-images.githubusercontent.com/58488160/169452701-48fa7b58-800c-4953-be99-9953a88b8d5f.jpg">
+
+
 2022-05-13 Update:
 1. Added an example vault (in Chinese). An English example vault will also be released this month. 
 <img width="400" alt="Screen Shot 2022-05-13 at 11 35 00 AM" src="https://user-images.githubusercontent.com/58488160/168206254-eb7f5370-6a4c-4be7-9244-27773caff64c.png">
