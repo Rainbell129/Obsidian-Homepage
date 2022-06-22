@@ -1,0 +1,182 @@
+.theme-light {
+    --color-title: #000000;
+    --color-axis: #000000;
+    --color-axis-label: #000000;
+    --color-tick-label: #000000;
+    --color-line: #000000;
+
+    --color-legend-border: #000000;
+
+    --color-dot-fill: #69b3a2;
+    --color-dot-stroke: none;
+
+    --color-bar-fill: #69b3a2;
+    --color-bar-border: none;
+
+    --color-tooltip-bg: #ffffff;
+    --color-tooltip-border: #000000;
+    --color-tooltip-label: #000000;
+}
+
+.theme-dark {
+    --color-title: #ffffff;
+    --color-axis: #ffffff;
+    --color-axis-label: #ffffff;
+    --color-tick-label: #ffffff;
+    --color-line: #ffffff;
+    
+    --color-legend-border: #ffffff;
+
+    --color-dot-fill: #69b3a2;
+    --color-dot-stroke: none;
+
+    --color-bar-fill: #69b3a2;
+    --color-bar-border: none;
+
+    --color-tooltip-bg: #ffffff;
+    --color-tooltip-border: #000000;
+    --color-tooltip-label: #000000;
+}
+
+.tracker-title {
+    fill: var(--color-title);
+    text-anchor: middle;
+    font-size: 18px;
+}
+
+.tracker-title-small {
+    fill: var(--color-title);
+    text-anchor: middle;
+    font-size: 16px;
+}
+
+.tracker-axis {
+    fill: none;
+    stroke: var(--color-axis);
+    stroke-width: 1px;
+}
+
+.tracker-axis-label {
+    fill: var(--color-axis-label);
+    text-anchor: middle;
+    font-size: 14px;
+    stroke: none;
+}
+
+.tracker-tick-label {
+    fill: var(--color-tick-label);
+    stroke: none;
+    font-size: 12px;
+}
+
+.tracker-line {
+    fill: none;
+    stroke: var(--color-line);
+    stroke-width: 1.5px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.tracker-dot {
+    fill: var(--color-dot-fill);
+}
+
+.tracker-tooltip {
+    fill: var(--color-tooltip-bg);
+    stroke: var(--color-tooltip-border);
+    stroke-width: 1px;
+}
+
+.tracker-tooltip-label {
+    fill: var(--color-tooltip-label);
+    stroke: none;
+    font-size: 12px;
+}
+
+.tracker-legend {
+    fill: none;
+    stroke: var(--color-legend-border);
+    stroke-width: 0.5px;
+}
+
+.tracker-legend-label {
+    font-size: 14px;
+    text-anchor: left;
+}
+
+.tracker-bar {
+    fill: var(--color-bar-fill);
+}
+
+.tracker-month-header-year {
+    fill: var(--color-title);
+    text-anchor: start;
+    font-size: 22px;
+    
+}
+
+.tracker-month-header-month {
+    fill: var(--color-title);
+    text-anchor: start;
+    font-size: 18px;
+}
+
+.tracker-month-dividing-line {
+    fill: var(--color-bar-fill);
+}
+
+.tracker-month-title-arrow {
+    fill: var(--color-title);
+    text-anchor: middle;
+    font-size: 22px;
+}
+
+.tracker-month-title-rotator {
+    fill: var(--color-title);
+    text-anchor: middle;
+    font-size: 20px;
+}
+
+.tracker-month-title-monitor {
+    fill: var(--color-title);
+    text-anchor: middle;
+    font-size: 18px;
+}
+
+.tracker-month-weekday {
+    fill: var(--color-tick-label);
+    stroke: none;
+    font-size: 12px;
+}
+
+.tracker-month-today-circle {
+    fill: none;
+    stroke: "white";
+    stroke-width: 4px;
+}
+
+.tracker-month-selected-circle {
+    fill: none;
+    stroke: "red";
+    stroke-width: 2px;
+}
+
+.tracker-month-label {
+    fill: var(--color-axis-label);
+    text-anchor: middle;
+    font-size: 14px;
+    stroke: none;
+}
+
+.tracker-month-annotation {
+    fill: var(--color-axis-label);
+    text-anchor: middle;
+    font-size: 10px;
+    stroke: none;
+}
+
+.tracker-pie-label {
+    fill: var(--color-tick-label);
+    stroke: none;
+    font-size: 12px;
+}

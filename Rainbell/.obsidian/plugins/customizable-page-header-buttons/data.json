@@ -1,0 +1,27 @@
+{
+  "enabledButtons": [
+    {
+      "id": "homepage:open-homepage",
+      "icon": "lucide-home",
+      "name": "Homepage: Open homepage",
+      "showButtons": "both"
+    },
+    {
+      "id": "big-calendar:open-big-calendar",
+      "icon": "calendar-glyph",
+      "name": "Obsidian Big Calendar: Open Big Calendar",
+      "showButtons": "both"
+    },
+    {
+      "id": "quickadd:runQuickAdd",
+      "icon": "add-note-glyph",
+      "name": "QuickAdd: Run QuickAdd",
+      "showButtons": "both"
+    }
+  ],
+  "desktop": true,
+  "titleLeft": [],
+  "titleRight": [],
+  "titleCenter": [],
+  "paneRelief": false
+}

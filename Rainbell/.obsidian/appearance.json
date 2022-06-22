@@ -1,0 +1,16 @@
+{
+  "enabledCssSnippets": [
+    "【主页设置】homepage setting",
+    "【主页设置】homepage setting media mobile",
+    "【卡片视图】zettelkasten",
+    "【项目管理】sharetype",
+    "【分栏支持】admonition-col2-col3-flex",
+    "【边栏图标】sidepane",
+    "【AD优化】admonitions",
+    "【进度颜色】多彩进度条",
+    "【进度颜色】colourful progress bar"
+  ],
+  "cssTheme": "Blue Topaz",
+  "theme": "moonstone",
+  "baseFontSize": 16
+}

@@ -1,0 +1,10 @@
+/* Plugin: Admonition - Style Adjust */
+    .admonition {
+        border-radius: .8rem !important;
+        border-left: none !important;
+    }
+
+    /* For styling nested Admonitions differently */
+    .admonition-content-holder .admonition {
+        background-color: var(--background-primary);
+    }

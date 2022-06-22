@@ -1,0 +1,34 @@
+{
+  "choices": [
+    {
+      "id": "587ffde1-2d5d-4886-8257-ff6c7ab9d617",
+      "name": "新建代码",
+      "type": "Template",
+      "command": false,
+      "templatePath": "40 - Obsidian/模板/新建代码模板.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "20 - 工作学习/代码库"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
+    }
+  ],
+  "macros": [],
+  "inputPrompt": "single-line"
+}

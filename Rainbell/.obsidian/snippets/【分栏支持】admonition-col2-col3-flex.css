@@ -1,0 +1,336 @@
+/* This css snippet is from the original css file of Blue Topaz. Credit to Cuman and 3F for their wonderful work. */
+
+
+/*blank ad分栏
+修改自 https://forum-zh.obsidian.md/t/topic/2081 */
+
+
+.is-live-preview .admonition-col2  .callout-content.admonition-content>div:nth-child(2), 
+.is-live-preview .admonition-col3  .callout-content.admonition-content>div:nth-child(2), 
+.is-live-preview .admonition-col4  .callout-content.admonition-content>div:nth-child(2) {
+  margin-top: -1.5em;
+}
+.admonition-kanban .admonition-title-icon, 
+.admonition-flex .admonition-title-icon, 
+.admonition-col2 .admonition-title-icon, 
+.admonition-col3 .admonition-title-icon,
+.admonition-col4 .admonition-title-icon {
+  display: none;
+}
+.is-live-preview  :is(.admonition-col2, .admonition-col3, .admonition-col4, .admonition-flex) .admonition-content  blockquote {
+padding:0;
+margin:0;
+line-height:1em;
+  }
+   :is(.admonition-col2, .admonition-col3, .admonition-col4, .admonition-flex) .admonition-content  blockquote {
+  flex: 100%;
+  border-left: none;
+  padding-left: 0;
+  padding-right: 0;
+  margin-block-start: 0;
+  margin:0;
+  box-shadow:none;
+  background-color: transparent;
+  color: var(--text-muted);
+}
+ :is(.admonition-col2, .admonition-col3, .admonition-col4, .admonition-flex) .admonition-content  blockquote p::before {
+  display: none;
+}
+ :is(.admonition-col2, .admonition-col3, .admonition-col4, .admonition-flex) .admonition-content  blockquote p {
+  margin:0;
+  overflow-wrap: anywhere;
+}
+
+:is(.callout.admonition-col2,.callout.admonition-col3,.callout.admonition-col4,.callout.admonition-flex)>.admonition-content>ul {
+  margin-left: auto;
+}
+.admonition-col2 .admonition-content  ul,
+.admonition-col3 .admonition-content  ul,
+.admonition-col4 .admonition-content  ul,
+.admonition-flex .admonition-content  ul {
+  padding-inline-start: 20px !important;
+  margin-left: -20px;
+}
+.admonition-col2 .admonition-content  ul li .task-list-item-checkbox,
+.admonition-col3 .admonition-content  ul li .task-list-item-checkbox,
+.admonition-col4 .admonition-content  ul li .task-list-item-checkbox,
+.admonition-flex .admonition-content  ul li .task-list-item-checkbox {
+
+  margin-left: auto;
+}
+:is(.admonition-col2,.admonition-col3,.admonition-col4,.admonition-flex) .callout-content ul.dataview.list-view-ul>li:not(.task-list-item) {
+  margin-left: auto;
+}
+
+.admonition-col2 {
+  box-shadow: none!important;
+}
+  
+.admonition-col2 .admonition	{
+  overflow: visible ;
+  margin:0;
+}
+
+.admonition-col2>.admonition-content-holder> .admonition-content {	
+  columns:150px 2;
+  -moz-columns:150px 2;
+  -webkit-columns:150px 2;
+  column-gap: 2vw;
+  overflow: visible ;
+  margin:0;
+  /*分栏的分割线
+  column-rule: 1px solid #d4d2d2; */
+}
+.callout.admonition-col2> .admonition-content {	
+  columns:150px 2;
+  -moz-columns:150px 2;
+  -webkit-columns:150px 2;
+  column-gap: 2vw;
+  overflow: visible ;
+  margin:0;
+  /*分栏的分割线
+  column-rule: 1px solid #d4d2d2; */
+}
+.admonition-col2 .admonition-content ol,
+.admonition-col2 .admonition-content ul {	
+  margin-top: -0.25em;
+  
+}
+:is(.markdown-preview-view,.markdown-rendered) .admonition-col2 .admonition-content :is(h3,h4) {	
+  margin-top: -0.001em!important;
+}
+.admonition-kanban .admonition-col2 .admonition-content ol{	
+  margin: 0;
+  break-inside: avoid;
+}
+
+.admonition-kanban .admonition-col2 .admonition-content ul {	
+  margin: 0;
+  break-inside: avoid;
+}
+
+.admonition-col2 .admonition-content {	
+  overflow: visible ;
+}
+
+.admonition-col2 > .admonition-content-holder {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.admonition-col2 p {
+  text-align: justify;
+  margin-top: 0;
+  padding: 2px;
+ /*  height:100%;
+  overflow: auto; */
+}
+.admonition-col2 p > img{
+  display: block;
+  height: auto;
+}
+
+.admonition-col2-parent .admonition-col2 .admonition > .admonition-title.no-title + .admonition-content-holder {
+  margin-top: 0;
+}
+
+/****col3 三栏*****/
+.admonition-col3 {
+  box-shadow: none !important;
+}
+  
+.admonition-col3 .admonition	{
+  overflow: visible ;
+  margin: 0;
+}
+
+.callout.admonition-col3>.admonition-content {	
+  columns: 100px 3;
+  -moz-columns: 100px 3;
+  -webkit-columns:100px 3;
+  column-gap: 1vw;
+  overflow: visible;
+  margin: 0;
+  break-inside: avoid;
+  column-rule: 1px solid #d4d2d2; 
+}
+.admonition-col3>.admonition-content-holder>.admonition-content {	
+  columns:100px 3;
+  -moz-columns:100px 3;
+  -webkit-columns:100px 3;
+  column-gap: 1vw;
+  overflow: visible ;
+  margin:0;
+  break-inside: avoid;
+  column-rule: 1px solid #d4d2d2; 
+}
+.admonition-col3 .admonition-content ol,
+.admonition-col3 .admonition-content ul {	
+  margin-top: -0.25em;
+}
+.admonition-kanban .admonition-col3 .admonition-content ul {	
+  margin:0;
+  break-inside: avoid;
+}
+.admonition-kanban .admonition-col3 .admonition-content ol {	
+  margin:0;
+  break-inside: avoid;
+}
+.admonition-col3 .admonition-content {	
+  overflow: visible;
+}
+
+.admonition-col3 >.admonition-content-holder {
+  margin-top:0!important;
+  margin-bottom:0!important;
+}
+.admonition-col3 p{
+  text-align: justify;
+  margin-top:0;
+  padding: 2px;
+ /*  height:100%;
+  overflow: auto; */
+}
+.admonition-col3 p>img{
+  display: block;
+  height: auto;
+}
+
+.admonition-col3-parent .admonition-col3 .admonition > .admonition-title.no-title + .admonition-content-holder {
+  margin-top: 0;
+}
+
+/****col4 四栏*****/
+.admonition-col4 {
+  box-shadow: none!important;
+}
+  
+.admonition-col4 .admonition	{
+  overflow: visible;
+  margin:0;
+}
+
+.callout.admonition-col4 > .admonition-content {	
+  column-count: 4;
+  column-gap: 1vw;
+  overflow: visible;
+  margin:0;
+  break-inside: avoid;
+}
+.admonition-col4 > .admonition-content-holder>.admonition-content {	
+  column-count: 4;
+  column-gap: 1vw;
+  overflow: visible;
+  margin:0;
+  break-inside: avoid;
+}
+.admonition-col4 .admonition-content {	
+  margin:0;
+  break-inside: avoid;
+}
+
+.admonition-col4 .admonition-content ol,
+.admonition-col4 .admonition-content ul {	
+  margin-top: -0.25em;
+}
+.admonition-kanban .admonition-col4 .admonition-content ul {	
+  margin:0;
+  break-inside: avoid;
+}
+.admonition-kanban .admonition-col4 .admonition-content ol {	
+  margin:0;
+  break-inside: avoid;
+}
+.admonition-col4 > .admonition-content {	
+  overflow: visible;
+}
+
+.admonition-col4 > .admonition-content-holder {
+  margin-top:0!important;
+  margin-bottom:0!important;
+}
+.admonition-col4 p {
+  text-align: justify;
+  margin-top:0;
+  padding: 2px;
+}
+.admonition-col4 p>img{
+  display: block;
+  height: auto;
+  -webkit-transition: -webkit-transform .3s ease;
+  -moz-transition: -moz-transform .3s ease;
+  -ms-transition: -ms-transform .3s ease;
+  transition: transform .3s ease;
+}
+
+.admonition-col4 p>img:hover{
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2)
+}
+   
+.admonition-col4-parent .admonition-col4 .admonition > .admonition-title.no-title + .admonition-content-holder {
+  margin-top: 0;
+}
+
+/*自适应分栏*/
+.admonition-flex {
+  margin: auto;
+  box-shadow:none;
+  border-left:0px;
+}
+
+.is-live-preview .callout-content.admonition-content >p {
+  margin-top: 0 ; 
+}
+.admonition-flex >.admonition-content-holder {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.admonition-flex .admonition-content {
+  width: 100%;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  border:none; 
+}
+.admonition-flex .admonition-content>div{
+  flex: 1;
+  margin: 0 0.625rem;
+}
+.admonition-flex .admonition-content[data-embed-type="image"] p{
+  align-self: baseline;
+}
+
+.admonition-flex .admonition-content[data-embed-type="image"] {
+justify-content: space-around;
+}
+
+/*ad-table*/
+.admonition-table {
+  overflow: visible;
+  margin: auto;
+  box-shadow:none;
+}
+.admonition-table .admonition-content {
+  width: calc(100% - 5px);
+  margin: 0;
+  overflow-x: auto!important; 
+  white-space: nowrap;
+}
+
+/*blank ad框全透明隐藏*/
+.admonition-blank {
+  overflow: visible;
+  background-color: rgba(255, 255, 255, 0)!important;
+  border-left:0px!important;
+  margin: auto;
+  box-shadow:none;
+}
+.admonition-blank .admonition-content {
+  overflow: visible;
+  margin: 0;
+}
+.callout.admonition-blank .admonition-content {
+  overflow: hidden;
+}
