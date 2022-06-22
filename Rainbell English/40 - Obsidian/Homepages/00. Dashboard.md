@@ -1,0 +1,16 @@
+## Quick Access
+- [🏠 Homepage](obsidian://advanced-uri?vault=Rainbell%20English&filepath=40%2520-%2520Obsidian%252FHomepages%252F00.%2520Homepage.md&viewmode=preview)
+- [📅 Daily](obsidian://advanced-uri?vault=Rainbell%20English&daily=true)
+- [[00. Library|📖 Library]]
+- [[00. Cardbox|🎴 Card Box]]
+- ℹ️ [Obsidian Help](https://help.obsidian.md/Start+here)
+- [[Qin|👩🏻 Me]]
+
+## Tasks Today
+```tasks
+due on today
+hide backlink
+hide due date
+hide edit button
+not done
+```
