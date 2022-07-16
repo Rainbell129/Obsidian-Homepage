@@ -4,8 +4,7 @@
 
 如果对示例库有任何疑问，欢迎扫描二维码进入Rainbell库答疑群，或者微信添加Rainbell0129询问。
 
-<img width="200" alt="QR" src="https://user-images.githubusercontent.com/58488160/174965390-91e052d8-830e-4331-be1a-56318bfb1e52.jpg">
-
+<img width="200" alt="QR" src="https://user-images.githubusercontent.com/58488160/179340135-e10dbb8b-be52-4d17-acfa-e87f4b9efd7d.jpg">
 
 
 2022-05-19 
