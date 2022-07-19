@@ -8,7 +8,7 @@ Update:
 
 2022-05-13 Update:
 1. Added an example vault (in Chinese). An English example vault will also be released this month. 
-<img width="400" alt="Screen Shot 2022-05-13 at 11 35 00 AM" src="https://user-images.githubusercontent.com/58488160/168206254-eb7f5370-6a4c-4be7-9244-27773caff64c.png">
+<img width="1544" alt="Screen Shot 2022-05-13 at 11 35 00 AM" src="https://user-images.githubusercontent.com/58488160/168206254-eb7f5370-6a4c-4be7-9244-27773caff64c.png">
 
 <!-- 
 <img width="400" alt="Screen Shot 2022-05-13 at 11 37 19 AM" src="https://user-images.githubusercontent.com/58488160/168206454-f3393dcf-eef5-4668-994b-2cbe5861ad4a.png">
