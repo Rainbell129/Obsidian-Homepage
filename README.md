@@ -1,6 +1,4 @@
-**中文说明请往下翻**
-
-**现可以在Releases部分直接下载中文版示例库**
+[中文示例库最新版下载](https://github.com/Rainbell129/Obsidian-Homepage/releases/tag/v0.0.3-zh)  | [Download the newest English Vault](https://github.com/Rainbell129/Obsidian-Homepage/releases/tag/v0.0.3-en) 
 
 如果对示例库有任何疑问，欢迎扫描二维码进入Rainbell库答疑群，或者微信添加Rainbell0129询问。
 
