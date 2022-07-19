@@ -1,9 +1,5 @@
 [中文示例库最新版下载](https://github.com/Rainbell129/Obsidian-Homepage/releases/tag/v0.0.3-zh)  | [Download the newest English Vault](https://github.com/Rainbell129/Obsidian-Homepage/releases/tag/v0.0.3-en) 
 
-如果对示例库有任何疑问，欢迎扫描二维码进入Rainbell库答疑群，或者微信添加Rainbell0129询问。
-
-<img width="200" alt="QR" src="https://user-images.githubusercontent.com/58488160/179340135-e10dbb8b-be52-4d17-acfa-e87f4b9efd7d.jpg">
-
 
 2022-05-19 
 Update:
