@@ -1,4 +1,4 @@
-[中文示例库最新版下载](https://github.com/Rainbell129/Obsidian-Homepage/releases/tag/v0.0.3-zh)  | [Download the newest English Vault](https://github.com/Rainbell129/Obsidian-Homepage/releases/tag/v0.0.3-en) 
+[中文示例库最新版下载](https://github.com/Rainbell129/Obsidian-Homepage/releases/tag/v0.0.3-zh)  | [Download the newest Example Vault in English](https://github.com/Rainbell129/Obsidian-Homepage/releases/tag/v0.0.3-en) 
 
 <img width="1544" alt="Screen Shot 2022-06-01 at 12 05 27" src="https://user-images.githubusercontent.com/58488160/171325346-836f4183-b163-4e97-8b15-78384a2cb7b1.png">
 
