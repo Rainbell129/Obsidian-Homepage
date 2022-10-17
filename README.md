@@ -2,6 +2,10 @@
 
 <img width="1544" alt="Screen Shot 2022-06-01 at 12 05 27" src="https://user-images.githubusercontent.com/58488160/171325346-836f4183-b163-4e97-8b15-78384a2cb7b1.png">
 
+2022-10-17
+Warning:
+1. Rainbell users have repetively reported problems regarding one specific plug-in that is Icon Folder. It can cause various problems such as disabling searching or causing trouble for synchronization. I recommend that you disable this plugin or use its older version （v1.0.61). 
+
 2022-05-19 
 Update:
 1. Added an example vault in English.
