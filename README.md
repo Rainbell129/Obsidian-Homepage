@@ -5,6 +5,7 @@
 2022-10-17
 Warning:
 1. Rainbell users have repetitively reported problems with one specific plug-in that is Icon Folder. It can cause various problems such as disabling searching or causing trouble for synchronization. I recommend that you disable this plugin or use its older version （v1.0.61). 
+雨铃库使用者经常在插件icon folder上遇到问题，该插件可能导致搜索功能失效或对同步造成麻烦（尤其是坚果云同步），推荐使用该插件老版本(v1.0.61）或者卸载该插件。
 
 2022-05-19 
 Update:
