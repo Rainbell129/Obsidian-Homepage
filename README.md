@@ -4,7 +4,7 @@
 
 2022-10-17
 Warning:
-1. Rainbell users have repetively reported problems regarding one specific plug-in that is Icon Folder. It can cause various problems such as disabling searching or causing trouble for synchronization. I recommend that you disable this plugin or use its older version （v1.0.61). 
+1. Rainbell users have repetitively reported problems with one specific plug-in that is Icon Folder. It can cause various problems such as disabling searching or causing trouble for synchronization. I recommend that you disable this plugin or use its older version （v1.0.61). 
 
 2022-05-19 
 Update:
