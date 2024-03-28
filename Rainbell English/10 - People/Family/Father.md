@@ -1,7 +1,7 @@
 ---
 name: Wang Wu
 gender: male
-birthday: 1958-01-01
+birthday: 1958-08-01
 email: 10000000@qq.com
 phone: 1000000000
 tags: family father closerfamily

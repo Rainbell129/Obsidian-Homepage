@@ -1,0 +1,15 @@
+{
+  "communityThemeSortOrder": "download",
+  "legacyEditor": false,
+  "livePreview": true,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "attachmentFolderPath": "40 - Obsidian/附件",
+  "showInlineTitle": true
+}

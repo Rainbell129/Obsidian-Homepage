@@ -1,0 +1,181 @@
+{
+  "main": {
+    "id": "3bb12d470fcd0291",
+    "type": "split",
+    "children": [
+      {
+        "id": "534b9b4ebbd32a45",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b5b7092aa44231f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "40 - Obsidian/Homepages/00. Homepage.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "64e5df844da43397",
+    "type": "split",
+    "children": [
+      {
+        "id": "404b714244a12346",
+        "type": "tabs",
+        "dimension": 59.28143712574851,
+        "children": [
+          {
+            "id": "7408259d9b92b5f4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "42aa1a006d235dd3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "98f0d4a0722ccaa3",
+        "type": "tabs",
+        "dimension": 40.7185628742515,
+        "children": [
+          {
+            "id": "a2ea7e19451c5b4f",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "324c0b9d83c44a19",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "40 - Obsidian/Homepages/00. Homepage.md"
+              }
+            }
+          },
+          {
+            "id": "53c2b5d46760f3a1",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "40 - Obsidian/Homepages/00. Dashboard.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              },
+              "pinned": true
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 207
+  },
+  "right": {
+    "id": "61191f8ea8fb7606",
+    "type": "split",
+    "children": [
+      {
+        "id": "4294f9e389e0008a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ad73b7dcf2a71b6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "40 - Obsidian/Homepages/00. Homepage.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "46b54befe5ed140b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 302.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "workspaces:Manage workspace layouts": false,
+      "homepage:Open homepage": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-memos:Memos": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "2b5b7092aa44231f",
+  "lastOpenFiles": [
+    "40 - Obsidian/Attachments/banners/flowers.gif",
+    "40 - Obsidian/Homepages/00. Dashboard.md",
+    "40 - Obsidian/Homepages/00. Homepage.md",
+    "30 - Reading/00. Library.md",
+    "50 - Zettelkasten/00. Cardbox.md",
+    "Untitled.md",
+    "10 - People/Family/Mother.md",
+    "10 - People/Family/Father.md",
+    "10 - People/Family/Daughter.md",
+    "10 - People/Family/00. People.md",
+    "10 - People/Colleagues/One.md",
+    "10 - People/Colleagues/Two.md",
+    "10 - People/Family/Qin.md",
+    "20 - Work & Study/Work/00. Work.md",
+    "20 - Work & Study/Study/00. Study.md"
+  ]
+}

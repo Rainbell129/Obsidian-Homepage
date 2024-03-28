@@ -1,0 +1,9 @@
+{
+  "style": "bullet",
+  "min_depth": 1,
+  "max_depth": 6,
+  "externalStyle": "None",
+  "supportAllMatchers": false,
+  "allow_inconsistent_headings": false,
+  "title": "# 目录"
+}

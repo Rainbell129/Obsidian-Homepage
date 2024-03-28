@@ -1,0 +1,146 @@
+{
+  "choices": [
+    {
+      "id": "2610798c-4cdd-46bc-b2c0-a39f1f352efc",
+      "name": "每日日程",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "00 - 每日日记/DailyNote/{{DATE:yyyy年MM月DD日}}.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": true,
+        "template": "40 - Obsidian/模板/每日日记模板.md"
+      },
+      "format": {
+        "enabled": true,
+        "format": "- <time>{{DATE:HH:mm}}</time> {{VALUE}}"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## 日程",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "97a76d67-7e9b-4971-99e5-fdf0a5bdd1ee",
+      "name": "添加任务到收件箱",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "40 - Obsidian/侧边栏/收件箱.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": false,
+        "format": ""
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "source"
+    },
+    {
+      "id": "587ffde1-2d5d-4886-8257-ff6c7ab9d617",
+      "name": "新建代码",
+      "type": "Template",
+      "command": false,
+      "templatePath": "40 - Obsidian/模板/新建代码模板.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "20 - 工作学习/代码库"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Nothing"
+    },
+    {
+      "id": "70bc3b46-36b1-4ec1-9242-439eaba8f069",
+      "name": "打开文件",
+      "type": "Macro",
+      "command": true,
+      "macroId": "e8c5951d-5def-4d6f-8511-1e5bd1f303b2"
+    }
+  ],
+  "macros": [
+    {
+      "name": "打开任务面板",
+      "id": "e8c5951d-5def-4d6f-8511-1e5bd1f303b2",
+      "commands": [
+        {
+          "name": "test",
+          "type": "UserScript",
+          "id": "62ff79ae-122e-49dc-a491-b10c8e6fa7f2",
+          "path": "40 - Obsidian/脚本/QuickAdd/test.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "",
+  "announceUpdates": true,
+  "version": "1.2.1",
+  "disableOnlineFeatures": true,
+  "ai": {
+    "OpenAIApiKey": "",
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true
+  }
+}

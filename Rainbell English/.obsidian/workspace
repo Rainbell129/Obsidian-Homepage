@@ -1,0 +1,165 @@
+{
+  "main": {
+    "id": "3bb12d470fcd0291",
+    "type": "split",
+    "children": [
+      {
+        "id": "f2ef2f1ed7442aa4",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "64e5df844da43397",
+    "type": "split",
+    "children": [
+      {
+        "id": "404b714244a12346",
+        "type": "tabs",
+        "dimension": 59.28143712574851,
+        "children": [
+          {
+            "id": "7408259d9b92b5f4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "42aa1a006d235dd3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "98f0d4a0722ccaa3",
+        "type": "tabs",
+        "dimension": 40.7185628742515,
+        "children": [
+          {
+            "id": "a2ea7e19451c5b4f",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "324c0b9d83c44a19",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "40 - Obsidian/主页/00. 导航.md"
+              }
+            }
+          },
+          {
+            "id": "98695456d98030ce",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "40 - Obsidian/主页/00. 导航.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              },
+              "pinned": true
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 207
+  },
+  "right": {
+    "id": "61191f8ea8fb7606",
+    "type": "split",
+    "children": [
+      {
+        "id": "4294f9e389e0008a",
+        "type": "tabs",
+        "dimension": 32.82937365010799,
+        "children": [
+          {
+            "id": "6ad73b7dcf2a71b6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "40 - Obsidian/主页/00. 导航.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "46b54befe5ed140b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "aba7aed431721f4a",
+        "type": "tabs",
+        "dimension": 67.170626349892,
+        "children": [
+          {
+            "id": "3e53c96b6f78fe7b",
+            "type": "leaf",
+            "state": {
+              "type": "memos_view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 302.5
+  },
+  "active": "f2ef2f1ed7442aa4",
+  "lastOpenFiles": [
+    "Rainbell库用户实例.md",
+    "40 - Obsidian/主页/00. 导航.md",
+    "40 - Obsidian/主页/00. 主页.md",
+    "常见问题.md",
+    "40 - Obsidian/主页/00. 参考汇总.md",
+    "20 - 工作学习/学习/00. 学习.md",
+    "20 - 工作学习/工作/00. 工作.md",
+    "10 - 人员管理/家人/秦某.md",
+    "30 - 阅读笔记/00. 图书馆.md",
+    "更新日志.md"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "enabledButtons": [
+    {
+      "id": "homepage:open-homepage",
+      "icon": "lucide-home",
+      "name": "Homepage: Open homepage",
+      "showButtons": "both"
+    },
+    {
+      "id": "quickadd:choice:70bc3b46-36b1-4ec1-9242-439eaba8f069",
+      "icon": "calendar-glyph",
+      "name": "QuickAdd: 打开文件",
+      "showButtons": "both"
+    },
+    {
+      "id": "quickadd:runQuickAdd",
+      "icon": "add-note-glyph",
+      "name": "QuickAdd: Run QuickAdd",
+      "showButtons": "both"
+    }
+  ],
+  "desktop": true,
+  "titleLeft": [],
+  "titleRight": [],
+  "titleCenter": [],
+  "paneRelief": false
+}

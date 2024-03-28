@@ -1,0 +1,102 @@
+/* @settings
+name: sharetype Color
+id: sharetype
+settings:
+    - 
+        title: sharetype Color
+        description: Change the color of the sharetype mark
+        id: sharetype-color		
+        type: variable-themed-color
+        format: hex
+        default-dark: '#E45858'
+        default-light: '#E45858'
+    - 
+        title: sharetype Font Color
+        description: Change the  color of the sharetype font mark
+        id: sharetype-font-color		
+        type: variable-themed-color
+        format: hex
+        default-dark: '#FFFBF0'
+        default-light: '#FFFBF0'
+    -    
+        title: sharetype2 Color
+        description: Change the color of the sharetype2 mark
+        id: sharetype2-color		
+        type: variable-themed-color
+        format: hex
+        default-dark: '#E45858'
+        default-light: '#E45858'
+    - 
+        title: sharetype2 Font Color
+        description: Change the  color of the sharetype2 font mark
+        id: sharetype2-font-color		
+        type: variable-themed-color
+        format: hex
+        default-dark: '#FFFBF0'
+        default-light: '#FFFBF0'
+*/
+
+.theme-dark, .theme-light {
+    --sharetype-color: #E45858;
+    --sharetype-font-color: #FFFBF0;
+    --sharetype2-color: #E45858;
+    --sharetype2-font-color: #FFFBF0;
+}
+
+
+span#task {
+ color: var(--sharetype-font-color) ; /*象牙白*/
+ background-color: var(--sharetype-color); /* 铜绿 #40bfaf;*/
+ font-style:normal;
+ padding-top: 0px;
+ padding-bottom: 2px;
+ padding-right: 4px;
+ padding-left: 4px;
+ border-radius: 5px;
+}
+
+
+
+span#word {
+    color: var(--sharetype2-font-color) ; /*象牙白*/
+    background-color: var(--sharetype2-color); /* 铜绿 #40bfaf;*/
+    font-style:normal;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    padding-right: 4px;
+    padding-left: 4px;
+    border-radius: 5px;
+   }
+   
+
+
+@media (max-width: 400pt)
+{
+
+span#summary1 {
+    width:100px;
+    display:inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+}
+
+@media (min-width: 800pt)
+{
+
+span#word::before {
+content: "📝 ";
+background-color: "";
+}
+
+
+span#task::before {
+ content: "💋 ";
+ background-color: "";
+}
+
+}
+
+
+

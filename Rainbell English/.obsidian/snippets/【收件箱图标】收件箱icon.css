@@ -1,0 +1,28 @@
+/* 收件箱 */
+
+/*边栏工作区文档图标自定义*/
+.workspace-tab-header[aria-label="收件箱"]
+.workspace-tab-header-inner-icon
+> svg{
+  display: none;
+}
+
+.workspace-tab-header.is-active[aria-label="收件箱"]
+.workspace-tab-header-inner-icon:before{
+  content: " ";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-color: var(--text-normal) ;
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor" stroke-width="2"/><line x1="12" y1="7" x2="12" y2="17" stroke="currentColor" stroke-width="2"/><line x1="7" y1="12" x2="17" y2="12" stroke="currentColor" stroke-width="2"/></svg>');   
+}
+
+.workspace-tab-header[aria-label="收件箱"]
+.workspace-tab-header-inner-icon::before{
+  content: " ";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-color: gray;
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor" stroke-width="2"/><line x1="12" y1="7" x2="12" y2="17" stroke="currentColor" stroke-width="2"/><line x1="7" y1="12" x2="17" y2="12" stroke="currentColor" stroke-width="2"/></svg>');      
+}

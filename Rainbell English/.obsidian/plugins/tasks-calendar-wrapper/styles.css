@@ -1,0 +1,601 @@
+/*
+
+This CSS file will be included with your plugin, and
+available in the app when your plugin is enabled.
+
+If your plugin does not need CSS, delete this file.
+
+*/
+
+.taskido {
+	cursor: default;
+	user-select: none;
+	margin-bottom: 15%;
+	--taskido-color-warning: var(--color-red);
+	--taskido-color-focus: var(--interactive-accent);
+	--taskido-color-focus-hsl: var(--interactive-accent-hsl);
+	--taskido-color-overdue: var(--taskido-color-warning);
+	--taskido-color-done: var(--color-green);
+	--taskido-color-process: var(--color-orange);
+}
+
+.taskido a {
+	text-decoration: none !important;
+	color: inherit !important;
+}
+
+.taskido span {
+	display: contents;
+}
+
+.taskido .task .internal-link,
+.taskido .task .external-link {
+	color: var(--interactive-accent);
+	text-decoration: underline !important;
+}
+
+.taskido .year {
+	font-size: 30px;
+	font-weight: bold;
+	margin: 20px 0;
+	color: var(--text-normal);
+	text-align: center;
+}
+
+.taskido .details {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	width: 100%;
+	height: auto;
+}
+
+.taskido .todayHeader {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	margin: 10px 5px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.taskido .details.today .date {
+	color: var(--taskido-color-focus);
+}
+
+.taskido .counters {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-content: center;
+	margin: 20px 0;
+}
+
+.taskido .counter {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	color: var(--text-normal);
+	border-radius: 10px;
+	padding: 5px;
+	text-align: center;
+	flex: 1 1 0;
+	margin: 0 5px;
+	min-width: 70px;
+	max-width: 150px;
+	overflow: hidden;
+	background: var(--interactive-normal);
+	box-shadow: var(--input-shadow);
+	cursor: pointer;
+}
+
+.taskido .count {
+	font-size: 18px;
+	font-weight: normal;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.taskido .counter .label {
+	font-size: 12px;
+	font-weight: normal;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.taskido .dateLine {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px 0;
+}
+
+.taskido .date {
+	color: var(--text-normal);
+	font-size: 16px;
+	font-weight: bold;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.taskido .weekday {
+	color: var(--text-normal);
+	font-weight: normal;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 16px;
+}
+
+.taskido .task {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	border-radius: 10px;
+	padding: 0;
+	margin: 0;
+	cursor: pointer;
+}
+
+.taskido .timeline,
+.taskido .lines {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	cursor: default;
+}
+
+.taskido .timeline {
+	width: 50px;
+	flex-shrink: 0;
+	flex-grow: 0;
+	align-items: center;
+}
+
+.taskido .lines {
+	flex-shrink: 1;
+	flex-grow: 1;
+	overflow: hidden;
+}
+
+.taskido .task .timeline::after {
+	content: "";
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 1;
+	flex-grow: 1;
+	position: relative;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	width: 1.2px;
+	background: var(--checkbox-border-color);
+}
+
+.taskido .task.overdue .timeline::after,
+.taskido .task[data-task='>'] .timeline::after {
+	background-color: var(--taskido-color-overdue);
+}
+
+.taskido .task.done .timeline::after,
+.taskido .task[data-task='x'] .timeline::after {
+	background-color: var(--taskido-color-done);
+}
+
+.taskido .task.process .timeline::after,
+.taskido .task.scheduled .timeline::after,
+.taskido .task.start .timeline::after,
+.taskido .task[data-task='<'] .timeline::after {
+	background-color: var(--taskido-color-process);
+}
+
+.taskido .task.overdue .timeline .icon svg {
+	stroke: var(--taskido-color-overdue) !important;
+}
+
+.taskido .task.done .timeline .icon svg {
+	stroke: var(--taskido-color-done) !important;
+}
+
+.taskido .task.process .timeline .icon svg,
+.taskido .task.scheduled .timeline .icon svg,
+.taskido .task.start .timeline .icon svg {
+	stroke: var(--taskido-color-process);
+}
+
+
+.taskido .task.done .info .tag,
+.taskido .task.done .info .repeat,
+.taskido .task.done .info .priority,
+.taskido .task.done .info .relative,
+.taskido .task.done .info .file,
+.taskido .task.cancelled .info .tag,
+.taskido .task.cancelled .info .repeat,
+.taskido .task.cancelled .info .priority,
+.taskido .task.cancelled .info .relative,
+.taskido .task.cancelled .info .file {
+	color: var(--text-muted) !important;
+	line-height: 0;
+}
+
+.taskido .task.done .content,
+.taskido .task.cancelled .content {
+	text-decoration: line-through;
+	color: var(--text-muted);
+}
+
+.taskido .line {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.taskido .task .timeline input[type='checkbox']:not(.icon) {
+	margin-top: calc(11px - var(--checkbox-size) / 2.0);
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.taskido .icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+	flex-grow: 0;
+	text-align: center;
+}
+
+.taskido .timeline icon {
+	text-align: center;
+	height: 22px;
+	padding: 0;
+	margin: 0;
+	background-position: center;
+}
+
+.taskido .timeline input.icon,
+.taskido .timeline input.icon:checked {
+	visibility: hidden;
+	height: 0;
+}
+
+.taskido .timeline .icon svg {
+	height: var(--checkbox-size);
+	width: var(--checkbox-size);
+	stroke-width: 1.75px;
+	color: var(--checkbox-border-color);
+	scale: 1.2;
+}
+
+.taskido .timeline .icon svg:hover {
+	color: var(--checkbox-border-color-hover);
+	scale: 1.3;
+}
+
+.taskido .task .info {
+	line-height: 22px;
+	padding-bottom: 2px;
+	cursor: default;
+}
+
+.taskido .task .info:empty {
+	display: none;
+}
+
+.taskido .task .content {
+	display: block;
+	white-space: break-word;
+	font-size: 15px;
+	font-weight: normal;
+	color: var(--text-normal);
+	line-height: 22px;
+}
+
+.taskido .task .info .tag,
+.taskido .task .info .repeat,
+.taskido .task .info .priority,
+.taskido .task .info .relative,
+.taskido .task .info .file {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	width: auto;
+	font-size: 9px;
+	font-weight: normal;
+	margin: 2px 5px 2px 0;
+	color: var(--text-muted);
+	padding: 0px;
+	border: none;
+	line-height: 1 !important;
+	padding: 0;
+	border-radius: 3px !important;
+}
+
+.taskido .task .info .file {
+	color: var(--task-color);
+}
+
+.taskido .task .info .tag {
+	color: var(--tag-color) !important;
+	background: none !important;
+	cursor: pointer;
+}
+
+.taskido .info .icon {
+	text-align: center;
+	height: 15px;
+}
+
+.taskido .info .label {
+	margin-left: 2px;
+}
+
+.taskido .info svg {
+	height: 12px;
+	width: 12px;
+	stroke-width: 1.75px;
+}
+
+.taskido .task.overdue .info .relative {
+	color: var(--taskido-color-overdue) !important;
+}
+
+/* Quick Entry Panel */
+.taskido .quickEntryPanel {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	background: var(--background-modifier-form-field);
+	border: var(--input-border-width) solid var(--background-modifier-border);
+	color: var(--text-normal);
+	border-radius: 10px;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+	margin: 0 5px 20px 5px;
+	overflow: hidden;
+	padding: 5px;
+}
+
+.taskido .quickEntryPanel .left {
+	width: 100%;
+	flex-shrink: 1;
+	flex-grow: 1;
+	overflow: hidden;
+	border-radius: 5px;
+	padding: 0 5px !important;
+}
+
+.taskido .quickEntryPanel .left .actionSelect {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+.taskido .quickEntryPanel .left .actionSelect .actionName {
+	max-width: 20%;
+}
+
+.taskido .quickEntryPanel .left .actionSelect .filterSelector {
+	max-width: 20%;
+}
+
+.taskido .quickEntryPanel .left .dateFilter {
+	max-width: fit-content;
+	justify-content: space-between;
+}
+
+.taskido .quickEntryPanel .left .dateFilter input[type=date] {
+	width: fit-content;
+}
+
+.taskido .quickEntryPanel .MultiSelect {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: center;
+	white-space: nowrap;
+}
+
+.taskido .quickEntryPanel .right {
+	display: block;
+	width: auto;
+	flex-shrink: 1;
+	flex-grow: 1;
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+.taskido .quickEntryPanel select,
+.taskido .quickEntryPanel input,
+.taskido .quickEntryPanel button {
+	box-shadow: none !important;
+	border: none !important;
+	background: none !important;
+	border-radius: 0 !important;
+}
+
+.taskido .quickEntryPanel select,
+.taskido .quickEntryPanel button {
+	cursor: pointer;
+}
+
+.taskido .quickEntryPanel input {
+	cursor: text;
+}
+
+.taskido .quickEntryPanel select {
+	height: 15px;
+	width: 100%;
+	font-size: 11px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	padding: 0 !important;
+	margin: 2.5px 0 !important;
+	color: var(--text-muted);
+}
+
+.taskido .quickEntryPanel select:hover,
+.taskido .quickEntryPanel button:hover {
+	color: var(--text-normal);
+}
+
+.taskido .quickEntryPanel select option,
+.taskido .quickEntryPanel select optgroup {
+	background: var(--background-primary);
+	font-weight: normal;
+	color: var(--text-normal);
+}
+
+.taskido .quickEntryPanel input {
+	height: 20px;
+	line-height: 20px;
+	width: 100%;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	padding: 0 !important;
+	margin: 0 !important;
+	font-size: 14px;
+}
+
+.taskido .quickEntryPanel button {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: auto;
+	padding: 0 5px !important;
+	margin: 0 !important;
+	color: var(--text-muted);
+}
+
+.taskido .quickEntryPanel svg {
+	height: 15px;
+	width: 15px;
+	stroke-width: 1.75px;
+}
+
+.taskido .quickEntryPanel select:active,
+.taskido .quickEntryPanel input:active,
+.taskido .quickEntryPanel button:active {
+	border: none !important;
+	box-shadow: none !important;
+	transition: none !important;
+}
+
+/* Classes */
+.taskido.todayFocus .todayHeader {
+	color: var(--taskido-color-focus);
+}
+
+.taskido.todoFocus .counter#todo,
+.taskido.todoFilter .counter#todo,
+.taskido.overdueFocus .counter#overdue,
+.taskido.overdueFilter .counter#overdue,
+.taskido.unplannedFocus .counter#unplanned,
+.taskido.unplannedFilter .counter#unplanned {
+	color: var(--taskido-color-focus);
+	background: hsla(var(--taskido-color-focus-hsl), 0.2);
+	box-shadow: var(--input-shadow);
+}
+
+.taskido.noYear .year,
+.taskido.noRepeat .repeat,
+.taskido.noTag .tag,
+.taskido.noPriority .priority,
+.taskido.noFile .task .file,
+.taskido.noHeader .task .header,
+.taskido.noFile .task .info>.file,
+.taskido.noInfo .task .line:nth-child(2),
+.taskido.noDone .year[data-types="done"],
+.taskido.noDone .details[data-types="done"],
+.taskido.noDone .task.done,
+.taskido.noUnplanned .task.unplanned,
+.taskido.noUnplanned .counter#unplanned,
+.taskido.noUnplanned .year[data-types="unplanned"],
+.taskido.noUnplanned .details[data-types="unplanned"],
+.taskido.noRelative .relative,
+.taskido.noQuickEntry .quickEntryPanel,
+.taskido.noCounters .counters {
+	display: none !important;
+}
+
+.taskido.noColor .task .file {
+	color: var(--text-muted) !important
+}
+
+.taskido.noColor .task .info .file {
+	color: var(--text-muted) !important
+}
+
+/* Focus */
+.taskido.todayFocus .details:not(.today),
+.taskido.todayFocus .year {
+	display: none !important;
+}
+
+.taskido.todayFocus .details.today {
+	padding: 0;
+}
+
+.taskido.todoFocus .task.due,
+.taskido.todoFocus .task.scheduled,
+.taskido.todoFocus .task.process,
+.taskido.todoFocus .task.start,
+.taskido.overdueFocus .task.overdue,
+.taskido.unplannedFocus .task.unplanned {
+	background: hsla(var(--taskido-color-focus-hsl), 0.2);
+}
+
+.taskido .task:hover {
+	background: hsla(var(--taskido-color-focus-hsl), 0.2);
+}
+
+/* Filter */
+.taskido.todoFilter .year:not([data-types~="due"]):not([data-types~="scheduled"]):not([data-types~="process"]):not([data-types~="start"]) {
+	display: none;
+}
+
+.taskido.todoFilter .details:not([data-types~="due"]):not([data-types~="scheduled"]):not([data-types~="process"]):not([data-types~="start"]) {
+	display: none;
+}
+
+.taskido.todoFilter .task:not(.due, .scheduled, .process, .start) {
+	display: none;
+}
+
+.taskido.overdueFilter .year:not([data-types*="overdue"]) {
+	display: none;
+}
+
+.taskido.overdueFilter .details:not([data-types*="overdue"]) {
+	display: none;
+}
+
+.taskido.overdueFilter .task:not(.overdue) {
+	display: none;
+}
+
+.taskido.unplannedFilter .year:not([data-types*="unplanned"]) {
+	display: none;
+}
+
+.taskido.unplannedFilter .details:not([data-types*="unplanned"]) {
+	display: none;
+}
+
+.taskido.unplannedFilter .task:not(.unplanned) {
+	display: none;
+}
