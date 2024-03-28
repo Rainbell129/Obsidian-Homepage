@@ -1,3 +1,16 @@
+/** Live Preview padding fixes, specifically for DataviewJS custom HTML elements. */
+.is-live-preview .block-language-dataviewjs > p, .is-live-preview .block-language-dataviewjs > span {
+    line-height: 1.0;
+}
+
+.block-language-dataview {
+    overflow-y: auto;
+}
+
+/*****************/
+/** Table Views **/
+/*****************/
+
 /* List View Default Styling; rendered internally as a table. */
 .table-view-table {
     width: 100%;
@@ -10,7 +23,7 @@
 }
 
 .table-view-table > tbody > tr:hover {
-    background-color: var(--text-selection);
+    background-color: var(--text-selection) !important;
 }
 
 .table-view-table > thead > tr > th {
@@ -28,19 +41,23 @@
     text-align: left;
     border: none;
     font-weight: 400;
-
     max-width: 100%;
 }
 
-/** Live Preview padding fixes, specifically for DataviewJS custom HTML elements. */
-.is-live-preview .block-language-dataviewjs > p, .is-live-preview .block-language-dataviewjs > span {
-    line-height: 1.0;
+.table-view-table ul, .table-view-table ol {
+    margin-block-start: 0.2em !important;
+    margin-block-end: 0.2em !important;
 }
 
 /** Rendered value styling for any view. */
 .dataview-result-list-root-ul {
     padding: 0em !important;
     margin: 0em !important;
+}
+
+.dataview-result-list-ul {
+    margin-block-start: 0.2em !important;
+    margin-block-end: 0.2em !important;
 }
 
 /** Generic grouping styling. */
@@ -53,9 +70,7 @@
 /*******************/
 
 .dataview.inline-field-key {
-    border-top-left-radius: 250px;
-    border-bottom-left-radius: 250px;
-    padding-left: 16px;
+    padding-left: 8px;
     padding-right: 8px;
     font-family: var(--font-monospace);
     background-color: var(--background-primary-alt);
@@ -63,19 +78,16 @@
 }
 
 .dataview.inline-field-value {
-    border-top-right-radius: 250px;
-    border-bottom-right-radius: 250px;
     padding-left: 8px;
-    padding-right: 16px;
+    padding-right: 8px;
     font-family: var(--font-monospace);
     background-color: var(--background-secondary-alt);
     color: var(--text-nav-selected);
 }
 
 .dataview.inline-field-standalone-value {
-    border-radius: 250px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
     font-family: var(--font-monospace);
     background-color: var(--background-secondary-alt);
     color: var(--text-nav-selected);
@@ -121,5 +133,14 @@ div.dataview-error-box {
 
 .dataview.small-text {
     font-size: smaller;
-    color: var(--text-selection);
+    color: var(--text-muted);
+    margin-left: 3px;
+}
+
+.dataview.small-text::before {
+	content: "(";
+}
+
+.dataview.small-text::after {
+	content: ")";
 }

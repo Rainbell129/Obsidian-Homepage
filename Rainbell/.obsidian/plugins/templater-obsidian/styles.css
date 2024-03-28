@@ -24,6 +24,10 @@
     align-self: center;
 }
 
+.templater_donating {
+    margin: 10px;
+}
+
 .templater_title {
     margin: 0;
     padding: 0;
@@ -63,6 +67,21 @@
     flex-grow: 1;
 }
 
+.templater-button-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+textarea.templater-prompt-input {
+    height: 10rem;
+}
+
+textarea.templater-prompt-input:focus {
+    border-color: var(--interactive-accent);
+}
+
 .cm-s-obsidian .templater-command-bg {
     left: 0px;
     right: 0px;
@@ -93,10 +112,6 @@
 
 .cm-s-obsidian .cm-templater-command.cm-templater-execution-tag {
     color: #c0d700;
-}
-
-.cm-s-obsidian .cm-templater-command.cm-templater-raw-tag {
-    color: green;
 }
 
 .theme-dark .cm-s-obsidian .cm-templater-command.cm-keyword {

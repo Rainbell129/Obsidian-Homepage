@@ -1,6 +1,6 @@
 {
-  "sharetype@@sharetype2-color@@light": "#A9E58E",
-  "sharetype@@sharetype-color@@light": "#69BBE4",
+  "sharetype@@sharetype2-color@@light": "#F4D8AC",
+  "sharetype@@sharetype-color@@light": "#FCB9C8",
   "blue-topaz-theme@@color-scheme-options": "color-scheme-options-avocado-topaz",
   "blue-topaz-theme@@muted-activeline-bg": false,
   "blue-topaz-theme@@folder-style-change-options-colorful": true,
@@ -12,5 +12,7 @@
   "blue-topaz-theme@@bt-status-off": false,
   "minimal-style@@embed-strict": false,
   "blue-topaz-theme@@naked-embed": true,
-  "blue-topaz-theme@@embed-title": true
+  "blue-topaz-theme@@embed-title": true,
+  "minimal-style@@link-color@@light": "#000000",
+  "minimal-style@@link-external-color@@light": "#000000"
 }

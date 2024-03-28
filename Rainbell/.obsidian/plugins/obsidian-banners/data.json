@@ -9,10 +9,10 @@
   "bannerDragModifier": "none",
   "iconHorizontalAlignment": "left",
   "iconHorizontalTransform": null,
-  "iconVerticalAlignment": "center",
-  "iconVerticalTransform": null,
+  "iconVerticalAlignment": "above",
+  "iconVerticalTransform": "30",
   "useTwemoji": true,
-  "showPreviewInLocalModal": true,
+  "showPreviewInLocalModal": false,
   "localSuggestionsLimit": null,
   "bannersFolder": null,
   "allowMobileDrag": false

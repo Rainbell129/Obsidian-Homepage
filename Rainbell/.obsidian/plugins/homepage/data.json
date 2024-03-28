@@ -1,10 +1,17 @@
 {
-  "version": 2,
-  "defaultNote": "40 - Obsidian/主页/00. 主页",
-  "workspace": "主工作区",
-  "workspaceEnabled": true,
-  "hasRibbonIcon": true,
-  "openMode": "Replace all open notes",
-  "view": "Reading view",
-  "refreshDataview": false
+  "version": 3,
+  "homepages": {
+    "Main Homepage": {
+      "version": 2,
+      "hasRibbonIcon": true,
+      "openMode": "Replace all open notes",
+      "view": "Reading view",
+      "refreshDataview": false,
+      "value": "主工作区",
+      "kind": "Workspace",
+      "commands": [],
+      "openOnStartup": true
+    }
+  },
+  "separateMobile": false
 }

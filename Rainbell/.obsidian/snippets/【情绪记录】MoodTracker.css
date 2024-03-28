@@ -1,0 +1,76 @@
+.musicBirthday {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-family: "Arial", sans-serif;
+}
+
+.mood-tracker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9606a46; /* 粉色背景 */
+  padding: 10px;
+  border-radius: 30px;
+}
+
+h3 {
+  margin: 5px 0;
+  color: #914963; /* 深粉色 */
+}
+
+.mood-icons {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.mood-icon {
+  font-size: 24px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.mood-icon:hover {
+  transform: scale(1.2);
+}
+
+.mood-icon.selected {
+  color: #fcdff0; /* 亮粉色 */
+}
+
+button {
+  background-color: #ed9292e2; /* 亮粉色 */
+  color: rgb(240, 113, 113);
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+button:disabled {
+  background-color: #fefbfb; /* 淡粉色 */
+  cursor: not-allowed;
+}
+
+.mood-log {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.mood-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fbfbfb; /* 轻粉色背景 */
+  padding: 4px;
+  margin-bottom: 3px;
+  border-radius: 10px;
+}
+
+.mood-entry span {
+  margin: 0 3px;
+}

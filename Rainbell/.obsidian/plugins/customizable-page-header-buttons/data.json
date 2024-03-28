@@ -7,9 +7,9 @@
       "showButtons": "both"
     },
     {
-      "id": "big-calendar:open-big-calendar",
+      "id": "quickadd:choice:70bc3b46-36b1-4ec1-9242-439eaba8f069",
       "icon": "calendar-glyph",
-      "name": "Obsidian Big Calendar: Open Big Calendar",
+      "name": "QuickAdd: 打开文件",
       "showButtons": "both"
     },
     {

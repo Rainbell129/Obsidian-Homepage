@@ -1,46 +1,43 @@
-/* countdown stickie css */
+/* 隐藏主页Properties但保留别的地方的properties */
 
-.birdname {
-  background: white;
-/* text-shadow: 0 1px 0 rgba(19, 74, 70, 0.4); */
-
-border-top-left-radius: 3px;
-border-bottom-left-radius: 3px;
-padding-top: 5px;
-padding-bottom: 5px;
-color: black;
-box-shadow: 2px 2px 6px rgb(228, 228, 228);
+/* 
+Show Properties in reading mode by default.
+Use "myhome" in `css_classes` property to hide them.
+source: https://forum.obsidian.md/t/hide-show-properties-and-add-property-button-in-reading-mode/66209
+============================================================= */
+.workspace-leaf-content[data-mode="preview"]
+.markdown-preview-view.myhome
+.metadata-container{
+    display: none;
 }
 
-.birdname:before, .birdname::after {
-  content: " ";
+/* 也处理掉rightlane的properties */
+.workspace-leaf-content[data-mode="preview"]
+.markdown-preview-view.rightlane
+.metadata-container{
+    display: none;
 }
 
-.countdowndays {
-background: #7AB893;
-text-shadow: 0 1px 0 rgba(19, 74, 70, 0.4);
-border-top-right-radius: 3px;
-border-bottom-right-radius: 3px;
-padding-top: 5px;
-padding-bottom: 5px;
-color: white;
-box-shadow: 2px 2px 6px rgb(228, 228, 228);
+/* 也处理掉noyaml的properties */
+.workspace-leaf-content[data-mode="preview"]
+.markdown-preview-view.noyaml
+.metadata-container{
+    display: none;
 }
 
-.birdcountdown{
-  margin-bottom: 10px;
+/* 处理 ob1.0 鸟库顶部导航多出来的点 */
+.myhome .list-bullet{
+  display: none !important;
 }
 
-.countdowndays:before, .countdowndays::after {
-  content: " ";
-}
+
 
 
 /* banner icon as date*/
 
 .myhome .obsidian-banner-icon .icon-box img
 {
-content: url("https://api.wolai.com/v1/icon?type=1&locale=en&pro=0&color=blue");
+content: url("https://api.wolai.com/v1/icon?type=1&locale=en&pro=0&color=grey");
 }
 
 /* end */
@@ -50,11 +47,8 @@ content: url("https://api.wolai.com/v1/icon?type=1&locale=en&pro=0&color=blue");
 }
 
 
-@media (max-width: 800pt) and (min-width: 400pt) 
-{.myhome ul>li:not(.task-list-item) {
-  flex: 1 1 100%;
-}
-}
+
+
 /* 优化 */
 
 .admonition-flex .admonition-content div {
@@ -62,17 +56,20 @@ content: url("https://api.wolai.com/v1/icon?type=1&locale=en&pro=0&color=blue");
   margin: -0.6em 0em 0.1em 0.2em;
 }
 
+
+
 progress {
   width: 80px !important;
   height: 7px;
   border: 1px solid #000;  
-  background-color:#e6e6e6;
+  background-color: transparent;
   color: var(--text-accent); /*IE10*/
-}
+} 
 
-progress::-moz-progress-bar { background: var(--text-accent); }
-progress::-webkit-progress-bar { background: #e6e6e6; }
-progress::-webkit-progress-value  { background: var(--text-accent); }
+
+/* progress::-moz-progress-bar { background: #a77575; }
+progress::-webkit-progress-bar { background: #947d7d; }
+progress::-webkit-progress-value  { background: #947d7d; } */
 
 
 /* minimal 优化 */
@@ -114,11 +111,11 @@ div.musicBirthday{
 
 /* dataview 设置 */
 .myhome ul ul li:nth-child(even) {
-  text-indent: 1em;
+  text-indent: 0em;
 }
 
 .myhome ul ul li:not(.task-list-item) {
-  text-indent: 1em;
+  text-indent: -1em;
 }
 
 button:hover {
@@ -189,10 +186,10 @@ a, .markdown-preview-view .internal-link {
   transition: all 150ms ease-in-out;
 }
 
-.external-link {
+/* .external-link {
   text-decoration: none;
   background-image: none;
-}
+} */
 
 .myhome a {
   color: var(--text-normal);
@@ -231,18 +228,35 @@ a, .markdown-preview-view .internal-link {
   flex-wrap: wrap;
 }
 
+
+
 .myhome ul>li:not(.task-list-item) {
   flex: 1 1 20%;
-  padding: 0.1em 0em 0.1em 0.1em;
+  padding: 0.1em 0em 0.1em 1em;
   margin: 0 0.1em 0.3em 0  !important;
   list-style: none;
   border: 1px solid var(--p-myhome-border-color);
-  border-left: 1px solid var(--p-myhome-border-color) !important;
-  /* border-radius: var(--radius-s); */
+  border-left: px solid var(--p-myhome-border-color) !important;
+
   border-radius: 5pt;
   word-wrap: break-word;
   word-break: break-word;
+  justify-content: center;
+  align-items: center;
 }
+
+.myhome ul ul li:not(.task-list-item) {
+  display: flex;
+  width: 100%;
+  display: block;
+  background-color: #f7b2b280 !important ;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+
 
 .myhome ul .list-collapse-indicator.collapse-indicator.collapse-icon {
   margin-left: -1.2em;
@@ -253,6 +267,12 @@ a, .markdown-preview-view .internal-link {
   color: var(--text-accent);
   transition: transform 10ms linear 0s
 }
+
+
+/* 上头ul li的padding我调整了 */
+
+
+/* 
 
 .myhome ul>li:nth-of-type(8n+1) {
   background-color: var(--p-myhome-color-1);
@@ -292,7 +312,7 @@ a, .markdown-preview-view .internal-link {
 .myhome ul>li:nth-of-type(8n) {
   background-color: var(--p-myhome-color-8);
   padding-left: 1em;
-}
+} */
 
 .myhome ul ul {
   display: flex;
@@ -305,14 +325,10 @@ a, .markdown-preview-view .internal-link {
   background: none;
 }
 
-.myhome ul ul li:not(.task-list-item) {
-  width: 100pt;
-  display: block;
-  background-color: #2b86b180 !important;
-}
+
 
 .myhome ul ul li:nth-child(even) {
-  background-color: #acacac80 !important;
+  background-color: #fffbed !important;
 }
 
 .myhome ul>li:hover {

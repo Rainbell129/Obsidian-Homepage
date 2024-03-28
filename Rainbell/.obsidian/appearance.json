@@ -1,16 +1,29 @@
 {
   "enabledCssSnippets": [
-    "【主页设置】homepage setting",
-    "【主页设置】homepage setting media mobile",
     "【卡片视图】zettelkasten",
     "【项目管理】sharetype",
     "【分栏支持】admonition-col2-col3-flex",
     "【边栏图标】sidepane",
     "【AD优化】admonitions",
     "【进度颜色】多彩进度条",
-    "【进度颜色】colourful progress bar"
+    "【进度颜色】colourful progress bar",
+    "【便签样式】stickies",
+    "【生日倒计时】birthday countdown",
+    "【日记时间轴】Time",
+    "【情绪记录】AllTracker",
+    "【情绪记录】MoodTracker",
+    "【音乐播放器】Music Player",
+    "【主页设置】homepage setting",
+    "【主页设置手机端】homepage setting media mobile",
+    "【主页设置移动端】homepage setting media mobile",
+    "【侧边栏播放器图标】rightlane music player icon",
+    "【侧边栏设置】rightlane setting",
+    "【全宽页面】fullwidth",
+    "【收件箱图标】收件箱icon"
   ],
-  "cssTheme": "Blue Topaz",
+  "cssTheme": "Minimal",
   "theme": "moonstone",
-  "baseFontSize": 16
+  "baseFontSize": 16,
+  "accentColor": "#f5c6c9",
+  "showViewHeader": true
 }

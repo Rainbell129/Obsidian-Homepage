@@ -74,8 +74,3 @@ return (
 ```jsx:
 <ShowI></ShowI>
 ```
-
-
-		final +=  <div> {basename}生日在 {hanBirthday}，还有 {N+1} 天 </div> 
-		
-						cells.push(<div class = "birdcountdown">  <text class = "birdname"> {basename} </text>生日在 <text class = "birdbirthday">{hanBirthday}</text>，还有<text class="countdowndays"> {N+1} </text> 天 </div>) 

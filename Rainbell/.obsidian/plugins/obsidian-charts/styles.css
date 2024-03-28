@@ -23,3 +23,8 @@ div.chart-error pre > code {
   /* Hardcoded with for printed Charts, see #41 */
   width: 500px !important;
 }
+
+a[href="https://ko-fi.com/phibr0"] > img
+{
+  height: 3em;
+}

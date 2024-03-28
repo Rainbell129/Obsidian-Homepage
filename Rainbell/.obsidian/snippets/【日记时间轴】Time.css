@@ -1,0 +1,44 @@
+/* @settings
+name: Time Color
+id: time
+settings:
+    - 
+        title: Time Color
+        description: Change the color of the time mark
+        id: time-color		
+        type: variable-themed-color
+        format: hex
+        default-dark: '#E45858'
+        default-light: '#E45858'
+    - 
+        title: Time Font Color
+        description: Change the  color of the time font mark
+        id: time-font-color		
+        type: variable-themed-color
+        format: hex
+        default-dark: '#FFFBF0'
+        default-light: '#FFFBF0'
+
+*/
+
+.theme-dark, .theme-light {
+       --time-color: #E45858;
+       --time-font-color: #FFFBF0;
+}
+
+time {
+    color: var(--time-font-color) ; /*象牙白*/
+    background-color: var(--time-color); /* 铜绿 #40bfaf;*/
+    font-style:normal;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    padding-right: 4px;
+    padding-left: 1px;
+    border-radius: 5px;
+}
+
+time::before {
+    content: "🕒";
+    background-color: "";
+}
+

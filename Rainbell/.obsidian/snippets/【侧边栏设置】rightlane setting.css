@@ -1,0 +1,39 @@
+.rightlane .internal-embed:not(.image-embed){
+    display: initial
+  }
+  
+  .rightlane .markdown-embed .file-embed-link, .markdown-embed .markdown-embed-link {
+    display: none
+  }
+  
+  .rightlane span.internal-embed.markdown-embed.inline-embed.is-loaded {
+    border-left: none;
+  
+  }
+  
+  .rightlane .embed-title {
+    display: none
+  }
+  
+  
+  .rightlane .contextual-typography .embed-strict .internal-embed .markdown-preview-view .markdown-preview-sizer>div, .embed-strict.contextual-typography .internal-embed .markdown-preview-view .markdown-preview-sizer>div {
+    margin: -2pt;
+  }
+  
+  .rightlane .inline-title {
+    display: none;
+  }
+  
+  .rightlane .contextual-typography .markdown-preview-view.markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
+    padding: 0;
+    max-width: 100%;
+  }
+  
+  .mod-right-split .markdown-preview-view, .mod-left-split .markdown-preview-view, .mod-right-split .markdown-source-view.mod-cm6 .cm-scroller, .mod-left-split .markdown-source-view.mod-cm6 .cm-scroller {
+    --file-margins: 0 !important;
+  }
+  
+  
+  /* .rightlane .markdown-preview-view {
+    margin: 0 0px !important;
+  } */

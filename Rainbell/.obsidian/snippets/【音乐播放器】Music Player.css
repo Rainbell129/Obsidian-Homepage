@@ -1,0 +1,51 @@
+.audio-container {
+    padding: 10px;
+    margin-left: 20px;
+    display: flex;              /* 添加这一行，使其成为一个 flex 容器 */
+    justify-content: space-between; /* 确保子元素之间有一些间距 */
+    align-items: center;       /* 垂直居中 */
+    white-space: pre-wrap;
+    background: #ffd3d36d;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.audio-dropdown {
+    flex: 1;                   /* 使其占据可用空间的一半 */
+    font-size: 9px;
+    padding: 5px 9px;
+    border: 1px solid #eb0b0b;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;        /* 为了添加一些右边距 */
+}
+
+.audio-section {
+    flex: 5;                   /* 使其占据可用空间的一半 */
+}
+
+/* 其他未更改的样式 */
+
+
+audio::-webkit-media-controls-panel {
+    background-color: #ffd3d357; /* Change this color to whatever you want */
+}
+
+
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display,
+audio::-webkit-media-controls-timeline {
+    color: black; /* Change this to whatever color you want */
+}
+
+audio::-webkit-media-controls-timeline {
+    /* display: none; */
+}
+
+
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    display: none;
+}

@@ -10,7 +10,6 @@
   "obsidian-tasks-plugin",
   "templater-obsidian",
   "obsidian-react-components",
-  "big-calendar",
   "periodic-notes",
   "obsidian-tracker",
   "customizable-page-header-buttons",
@@ -20,6 +19,7 @@
   "obsidian-style-settings",
   "obsidian-sortable",
   "obsidian-charts",
-  "obsidian-icon-folder",
-  "obsidian-dynamic-toc"
+  "obsidian-dynamic-toc",
+  "tasks-calendar-wrapper",
+  "obsidian-minimal-settings"
 ]

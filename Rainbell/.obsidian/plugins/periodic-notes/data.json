@@ -1,5 +1,5 @@
 {
-  "showGettingStartedBanner": true,
+  "showGettingStartedBanner": false,
   "hasMigratedDailyNoteSettings": false,
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
@@ -20,9 +20,10 @@
     "folder": ""
   },
   "quarterly": {
-    "format": "",
-    "template": "",
-    "folder": ""
+    "format": "YYYY年第Q季度规划",
+    "template": "40 - Obsidian/模板/季度OKR模板.md",
+    "folder": "00 - 每日日记/QuarterlyNote",
+    "enabled": true
   },
   "yearly": {
     "format": "",

@@ -1,0 +1,354 @@
+
+button {
+  /* display: none; */
+}
+
+/* 手机分栏自适应 */
+
+body.is-mobile.style-options-for-admonition-plugin .admonition-col2>.admonition-content-holder>.admonition-content {	
+  display:content;
+  }
+
+.is-mobile .musicBirthday{
+    display: contents !important;
+    }
+
+/* Ipad  */
+@media (max-width: 800pt) 
+and (min-width : 400px)
+{
+  .myhome ul ul li:not(.task-list-item) {
+    width: 90% !important;
+
+  }
+}
+
+/* 手机设置 */
+
+@media (max-width: 400pt)
+{
+  /* button */
+
+
+
+  /* Something */
+  body.style-options-for-admonition-plugin .admonition-flex .admonition-content div {
+    flex: 1 1 99%;
+    margin: -0.5em 0em 1em 0em;
+  }
+
+  /* 调整admonition flex 在手机上的indent */
+  .myhome .admonition-flex ul > li.task-list-item {
+    flex: 1 1 99%;
+    text-indent: -1.6em;
+  }
+
+  progress {
+    width: 40px !important;
+    height: 10px;
+    border: 1px solid #000;  
+    background-color:#e6e6e6;
+    color: var(--text-accent); /*IE10*/
+  }
+  
+  progress::-moz-progress-bar { background: var(--text-accent); }
+  progress::-webkit-progress-bar { background: #e6e6e6; }
+  progress::-webkit-progress-value  { background: var(--text-accent); }
+
+  div.musicBirthday{
+    display: contents;
+    }
+    
+  /* .myhome .external-link {
+    background-image: none;
+  } */
+
+  */
+
+  /* dataview 设置 */
+  .myhome ul ul li:nth-child(even) {
+  text-indent: 1em;
+}
+
+  .myhome ul ul li:not(.task-list-item) {
+  text-indent: 1em;
+}
+
+
+  .myhome a {
+    color: var(--text-normal);
+  }
+
+  /* 鼠标悬浮banner优先级设置 */
+  .obsidian-banner-wrapper{
+  z-index: 0;
+  }
+
+  .markdown-preview-view:not(.kanban) ul>li:not(.task-list-item) {
+    z-index: 1;
+  }
+  
+  a, .markdown-preview-view .internal-link {
+    z-index: 2;
+  }
+  
+
+  /* profile picture 设置 */
+
+.homepage-profile-picture {
+  position: absolute;
+  top: 25%;
+  right:10%;
+  border:4px solid #000;
+  border-radius: 0pt;
+  outline: solid 2px black;
+  border-style: double;
+  opacity: 1;
+
+}
+
+/* cssclass: myhome 看板设置*/
+/* adapted from spectrum theme, thanks to @Braweria. https://github.com/Braweria/Spectrum */
+/* a kind of css-based pseudo-myhome feature */
+
+/* 手机端 */
+
+.is-mobile .myhome ul{ display: flex; }
+.is-mobile .myhome ul>li:not(.task-list-item) {
+  flex: 1 1 45%;
+}
+/* pc端 */
+
+.myhome ul {
+  display: flex;
+  flex-direction: row;
+  border: 0px solid var(--p-myhome-border-color);
+  padding: 0rem;
+  border-radius: var(--radius-m);
+  flex-wrap: wrap;
+}
+
+.myhome ul>li:not(.task-list-item) {
+  flex: 1 1 20%;
+  padding: 0.1em 1em 0.1em 0.8em;
+  margin: 0 0.1em 0.3em -1.6em  !important;
+  list-style: none;
+  border: 1px solid var(--p-myhome-border-color);
+  border-left: 1px solid var(--p-myhome-border-color) !important;
+  border-radius: 5pt;
+  word-wrap: break-word;
+  word-break: break-word;
+  justify-content: center;
+  align-items: center;
+}
+
+.myhome .admonition-col2 ul>li:not(.task-list-item) {
+  flex: 1 1 100%;
+  padding: 0;
+  margin: 0 0em 0em -1.6em  !important;
+  list-style: none;
+  border: 1px solid var(--p-myhome-border-color);
+  border-left: 1px solid var(--p-myhome-border-color) !important;
+  border-radius: var(--radius-s);
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.myhome ul .list-collapse-indicator.collapse-indicator.collapse-icon {
+  margin-left: -1.2em;
+  position: absolute;
+}
+
+.myhome ul .list-collapse-indicator.collapse-indicator.collapse-icon::before {
+  color: var(--text-accent);
+  transition: transform 10ms linear 0s
+}
+
+.myhome ul>li:nth-of-type(8n+1) {
+  background-color: var(--p-myhome-color-1);
+  padding-left: 1em;
+}
+
+.myhome ul>li:nth-of-type(8n+2) {
+  background-color: var(--p-myhome-color-2);
+  padding-left: 1em;
+}
+
+.myhome ul>li:nth-of-type(8n+3) {
+  background-color: var(--p-myhome-color-3);
+  padding-left: 1em;
+}
+
+.myhome ul>li:nth-of-type(8n+4) {
+  background-color: var(--p-myhome-color-4);
+  padding-left: 1em;
+}
+
+.myhome ul>li:nth-of-type(8n+5) {
+  background-color: var(--p-myhome-color-5);
+  padding-left: 1em;
+}
+
+.myhome ul>li:nth-of-type(8n+6) {
+  background-color: var(--p-myhome-color-6);
+  padding-left: 1em;
+}
+
+.myhome ul>li:nth-of-type(8n+7) {
+  background-color: var(--p-myhome-color-7);
+  padding-left: 1em;
+}
+
+.myhome ul>li:nth-of-type(8n) {
+  background-color: var(--p-myhome-color-8);
+  padding-left: 1em;
+}
+
+.myhome ul ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0rem;
+  margin-top: 0.5rem;
+  border-radius: 0;
+  border: 0;
+  background: none;
+}
+
+
+
+/* .myhome ul ul li:not(.task-list-item) {
+  width: 100% !important;
+  display: block;
+  background-color: #2b86b180 !important;
+} */
+
+.myhome ul ul li:not(.task-list-item) {
+  display: flex;
+  width: 100% !important;
+  display: block;
+  background-color: #2b86b180 !important;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.myhome ul ul li:nth-child(even) {
+  background-color: #acacac80 !important;
+}
+
+.myhome ul>li:hover {
+  border-color: var(--p-myhome-border-color) !important;
+}
+
+.myhome ul ul li:hover {
+  background: var(--interactive-accent) !important;
+  border-color: var(--p-myhome-border-color) !important;
+  border-left: 1px solid var(--p-myhome-border-color) !important;
+}
+
+.theme-dark .myhome ul ul li:hover {
+  border-color: #696969e1 !important;
+  border-left: 1px solid #696969e1 !important;
+}
+
+.myhome ul ul li .task-list-item-checkbox {
+  margin-left: 1.5rem;
+}
+
+.myhome ul ul ul {
+  margin-right: 0;
+}
+
+.myhome ul ul::before {
+  border-left: 0;
+}
+
+.markdown-preview-view.is-readable-line-width.myhome .markdown-preview-sizer>div>ul {
+  max-width: 100%;
+}
+
+.myhome ul.contains-task-list ul,
+.myhome ol.contains-task-list ul,
+.myhome ul.contains-task-list ol,
+.myhome ol.contains-task-list ol {
+  position: initial;
+}
+
+.myhome ul.contains-task-list ul::before,
+.myhome ol.contains-task-list ul::before,
+.myhome ul.contains-task-list ol::before,
+.myhome ol.contains-task-list ol::before {
+  all: initial
+}
+
+.myhome ul > li.task-list-item {
+  flex: 1 1 20%;
+  padding: 0.1em 1em;
+  margin: 0 0.1em 0.3em 0;
+  list-style: none;
+  border: 1px solid var(--p-myhome-border-color);
+  border-left: 1px solid var(--p-myhome-border-color) !important;
+  border-radius: 5pt;
+  word-wrap: break-word;
+  word-break: break-word;
+  text-indent: 0;
+}
+
+.myhome ul ul li.task-list-item {
+  width: 100%;
+  display: block;
+  padding-left: 2em;
+  text-indent: -3.1em;
+  background-color: var(--p-myhome-card-color-1) !important;
+}
+
+.myhome .task-list-item-checkbox {
+  border-color: var(--text-normal) !important;
+}
+
+
+
+/*
+.myhome ul>li:nth-of-type(2)[data-line="1"],
+.myhome ul>li:nth-of-type(4)[data-line="3"],
+.myhome ul>li:nth-of-type(5)[data-line="4"],
+.myhome ul>li:nth-of-type(7)[data-line="6"],
+.myhome ul>li:nth-of-type(10)[data-line="9"],
+.myhome ul>li:nth-of-type(12)[data-line="11"],
+.myhome ul>li:nth-of-type(13)[data-line="12"],
+.myhome ul>li:nth-of-type(15)[data-line="14"] {
+  background-color: var(--p-myhome-card-color-1);
+}
+
+.myhome ul>li:nth-of-type(3)[data-line="2"],
+.myhome ul>li:nth-of-type(6)[data-line="5"],s
+.myhome ul>li:nth-of-type(8)[data-line="7"],
+.myhome ul>li:nth-of-type(9)[data-line="8"],
+.myhome ul>li:nth-of-type(11)[data-line="10"],
+.myhome ul>li:nth-of-type(14)[data-line="13"],
+.myhome ul>li:nth-of-type(16)[data-line="15"] {
+  background-color: var(--p-myhome-color-1);
+}
+*/
+
+/*=========================*/
+/*==========tags===========*/
+}
+
+@media (max-width: 800pt) 
+and (min-width : 400px)
+{
+ .myhome ul{ display: flex; }
+ .myhome ul>li:not(.task-list-item) {
+    flex: 1 1 45%;
+  }
+}
+
+@media (max-width: 400pt) 
+{
+ .myhome ul{ display: flex; }
+ .myhome ul>li:not(.task-list-item) {
+    flex: 1 1 100%;
+  }
+}
