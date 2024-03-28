@@ -1,4 +1,7 @@
 [中文示例库最新版下载](https://github.com/Rainbell129/Obsidian-Homepage/releases/tag/v2.0.1)  
+
+<img width="1544" alt="Screen Shot 2022-06-01 at 12 05 27" src="https://github.com/Rainbell129/Obsidian-Homepage/assets/58488160/37f29ecd-5974-48bd-989c-fb8068690cf0">
+
 **To download the newest Example Vault in English:**
 Please download the source code folder named Rainbell English and open it in Obsidian. I have not compiled a final version yet but I am trying to do it. 
 
