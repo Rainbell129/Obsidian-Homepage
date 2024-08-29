@@ -1,5 +1,7 @@
 [中文示例库最新版下载](https://github.com/Rainbell129/Obsidian-Homepage/releases/tag/v2.0.1)  
 
+如果对示例库有任何疑问，欢迎微信添加Rainbell0129询问，也可以进入微信上的Rainbell库答疑群。
+
 <img width="1544" alt="Screen Shot 2022-06-01 at 12 05 27" src="https://github.com/Rainbell129/Obsidian-Homepage/assets/58488160/37f29ecd-5974-48bd-989c-fb8068690cf0">
 
 **To download the newest Example Vault in English:**
